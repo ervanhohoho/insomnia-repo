@@ -1,0 +1,284 @@
+_id: pf_3a9e79d02f9e40a2bfaf7ceb403327cf
+type: ProtoFile
+parentId: pd_3477d0f641a2459bb2bce83bcfa99dc2
+modified: 1692869778923
+created: 1692869778923
+name: xero_service.proto
+protoText: >-
+  syntax = "proto3";
+
+
+  package operations.v1.xero_service;
+
+
+  option go_package = "github.com/cosmart-tech/protobuf-collection/pb_gen/operations/v1/xero_service";
+
+
+  import "google/protobuf/timestamp.proto";
+
+
+  message NewXeroSalesOrderResponse{
+    string Status = 1;
+    string ErrorMsg = 2;
+    string InvoiceID = 3;
+  }
+
+
+  message CustomerObj{
+    string Name = 1;
+    string PhoneNumber = 2;
+  }
+
+
+  message SalesOrderLine{
+    string SKU = 1;
+    string ProductName = 2;
+    int32 Quantity = 3;
+    string Price = 4;
+    bool SubjectToVAT = 5;
+    string account_code = 6;
+  }
+
+  message NewXeroSalesOrderRequest{
+    string OrderID = 1;
+    CustomerObj Customer = 2;
+    google.protobuf.Timestamp DueDate = 3;
+    repeated SalesOrderLine Lines = 4;
+  }
+
+
+  message NewXeroPaymentRequest{
+    string InvoiceID = 1;
+    string Amount = 2;
+    google.protobuf.Timestamp PaidDate = 3;
+    string OrderID = 4;
+  }
+
+
+  message NewXeroPaymentResponse{
+    string Status = 1;
+    string ErrorMsg = 2;
+    string PaymentID = 3;
+  }
+
+
+  //Adding this for backwards compatibility
+
+  message NewXeroBillRequest{
+    string ExternalID = 1;
+    string OrderId = 2;
+    string PaymentDate = 3;
+    string Amount = 4;
+    string TaxAmount = 5;
+  }
+
+
+  message NewInvoiceLine{
+    string name = 1;
+    string amount = 2;
+    string tax_amount = 3;
+    int32 quantity = 4;
+    string account_code = 5;
+  }
+
+
+
+  service XeroService{
+    rpc NewSalesOrder(NewXeroSalesOrderRequest) returns (NewXeroSalesOrderResponse);
+    rpc NewPayment(NewXeroPaymentRequest) returns (NewXeroPaymentResponse);
+  }
+
+
+  service XeroSOService{
+    rpc NewSalesOrder(NewXeroSalesOrderRequest) returns (NewXeroSalesOrderResponse);
+    rpc NewPayment(NewXeroPaymentRequest) returns (NewXeroPaymentResponse);
+  }
+
+
+  service XeroBillService{
+    rpc NewBill(NewXeroBillRequest) returns (NewXeroSalesOrderResponse);
+    rpc NewPayment(NewXeroPaymentRequest) returns (NewXeroPaymentResponse);
+  }
+
+
+  service XeroInvoiceService{
+    rpc NewInvoice(NewInvoiceRequest) returns(NewInvoiceResponse);
+  }
+
+
+  message NewInvoiceRequest{
+    string contact_name = 1;
+    string due_date = 2;
+    string reference = 3;
+    repeated NewInvoiceLine lines = 4;
+  }
+
+
+  message NewInvoiceResponse{
+    string invoice_id = 1;
+    string payment_id = 2;
+  }
+
+
+  enum NewPOLineItemType{
+    Product = 0;
+    AdditionalCost = 1;
+  }
+
+  // Purchase Order
+
+  message NewPOLineItem{
+    string SKU = 1;
+    string ProductName = 2;
+    float Quantity = 3;
+    string Price = 4;
+    bool SubjectToVAT = 5;
+    NewPOLineItemType Type = 6;
+    string Account = 7;
+  }
+
+
+  message NewPORequest{
+    string SupplierName = 1;
+    google.protobuf.Timestamp PODate = 2;
+    google.protobuf.Timestamp DeliveryDate = 3;
+    repeated NewPOLineItem Lines = 4;
+    string PONumber = 5;
+    string Status = 6;
+  }
+
+
+  message NewPOResponse{
+    string Status = 1;
+    string ErrorMsg = 2;
+    string POID = 3;
+  }
+
+
+  message NewPOBillRequest{
+    string SupplierName = 1;
+    google.protobuf.Timestamp DueDate = 2;
+    string InvoiceNumber = 3;
+    repeated NewPOLineItem Lines = 4;
+    google.protobuf.Timestamp InvoiceDate = 5;
+  }
+
+
+  message NewPOBillResponse{
+    string Status = 1;
+    string ErrorMsg = 2;
+    string BillID = 3;
+  }
+
+
+  message NewCreditNoteLineItem{
+    string SKU = 1;
+    string ProductName = 2;
+    float Quantity = 3;
+    string Price = 4;
+    bool SubjectToVAT = 5;
+  }
+
+
+  message NewCreditNoteRequest{
+    string SupplierName = 1;
+    google.protobuf.Timestamp CNDate = 2;
+    repeated NewCreditNoteLineItem Lines = 3;
+    string CreditNoteNumber = 4;
+  }
+
+
+  message NewCreditNoteResponse{
+    string Status = 1;
+    string ErrorMsg = 2;
+    string CreditNoteID = 3;
+  }
+
+
+  message NewRefundRequest{
+    string CreditNoteID = 1;
+    google.protobuf.Timestamp RefundDate = 2;
+    string AccountCode = 3;
+    string Amount = 4;
+  }
+
+
+  message NewRefundResponse{
+    string Status = 1;
+    string ErrorMsg = 2;
+    string RefundID = 3;
+  }
+
+
+  message NewPOPaymentPrepaymentObj{
+    string IMSPaymentID = 1;
+    string FinancePrepaymentID = 2;
+    string AccountCode = 3;
+    string Amount = 4;
+    google.protobuf.Timestamp PaidDate = 5;
+  }
+
+
+  message NewPOPaymentPaymentObj{
+    string IMSPaymentID = 1;
+    string AccountCode = 2;
+    string Amount = 3;
+    google.protobuf.Timestamp PaidDate = 4;
+    string Reference = 5;
+  }
+
+
+  message NewPOPaymentRequest{
+    string BillID = 1;
+    repeated NewPOPaymentPaymentObj Payments = 2;
+  }
+
+
+  message NewPOPaymentResponseObj {
+    string IMSPaymentID = 1;
+    string FinanceID = 2;
+  }
+
+
+  message NewPOPaymentResponse{
+    string Status = 1;
+    string ErrorMsg = 2;
+    repeated NewPOPaymentResponseObj Responses = 3;
+  }
+
+
+  service XeroPOService{
+    rpc UpsertPO(NewPORequest) returns (NewPOResponse);
+    rpc NewBill(NewPOBillRequest) returns (NewPOBillResponse);
+    rpc NewCreditNote(NewCreditNoteRequest) returns (NewCreditNoteResponse);
+    rpc NewRefund(NewRefundRequest) returns (NewRefundResponse);
+    rpc NewPayment(NewPOPaymentRequest) returns (NewPOPaymentResponse);
+  }
+
+
+  message NewPrepaymentBankTransactionLine{
+    string Description = 1;
+    float Quantity = 2;
+    string UnitAmount = 3;
+  }
+
+
+  message NewPrepaymentBankTransaction{
+    string ContactName = 1;
+    repeated NewPrepaymentBankTransactionLine Lines = 2;
+    string AccountCode = 3;
+    string Reference = 4;
+  }
+
+
+
+  message NewPrepaymentBankTransactionResponse{
+    string Status = 1;
+    string ErrorMsg = 2;
+    string PrepaymentID = 3;
+  }
+
+
+  service XeroBankTransactionService{
+    rpc NewPrepayment(NewPrepaymentBankTransaction) returns (NewPrepaymentBankTransactionResponse);
+  }

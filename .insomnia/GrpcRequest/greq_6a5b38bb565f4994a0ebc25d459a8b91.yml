@@ -1,0 +1,18 @@
+_id: greq_6a5b38bb565f4994a0ebc25d459a8b91
+type: GrpcRequest
+parentId: fld_0758e91d1ded429fa77ea78a49b53cd8
+modified: 1692871520155
+created: 1692869713623
+url: "{{ _['hermes-grpc'] }}"
+name: Request Scraping
+description: ""
+protoFileId: pf_5a90f469ec64490197777891406db5a4
+protoMethodName: /cosmart.hermes.v1.scraper.HermesScraperService/RequestScraping
+metadata: []
+body:
+  text: |-
+    {
+    	"keyword": "tepung beras rosebrand"
+    }
+metaSortKey: -1692871203925
+isPrivate: false

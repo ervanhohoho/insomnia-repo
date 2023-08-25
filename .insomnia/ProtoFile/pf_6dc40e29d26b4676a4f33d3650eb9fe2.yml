@@ -1,0 +1,28 @@
+_id: pf_6dc40e29d26b4676a4f33d3650eb9fe2
+type: ProtoFile
+parentId: pd_0a4e71dfbede422b8f8f77ba9aab262d
+modified: 1692869778908
+created: 1692869778908
+name: standard_response.proto
+protoText: >-
+  syntax = "proto3";
+
+
+  package cosmart.common;
+
+  import "google/protobuf/any.proto";
+
+  option go_package = "github.com/cosmart-tech/protobuf-collection/pb_gen/common";
+
+
+  message CosmartStandardResponseError{
+      string message = 1;
+      int32 code = 2;
+  }
+
+
+  message CosmartStandardResponse{
+      google.protobuf.Any data = 1;
+      string message = 2;
+      repeated CosmartStandardResponseError err = 3;
+  }

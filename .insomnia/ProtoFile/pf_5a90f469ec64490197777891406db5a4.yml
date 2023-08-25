@@ -1,0 +1,100 @@
+_id: pf_5a90f469ec64490197777891406db5a4
+type: ProtoFile
+parentId: pd_0674c343606841d2b781ccf1aeda7550
+modified: 1692869778918
+created: 1692869778918
+name: scraper_service.proto
+protoText: >-
+  syntax = "proto3";
+
+
+  package cosmart.hermes.v1.scraper;
+
+  import "common/standard_response.proto";
+
+
+  option java_package = "io.grpc.cosmart.hermes.v1.scraper";
+
+  option go_package = "github.com/cosmart-tech/protobuf-collection/pb_gen/hermes/v1/scraper";
+
+
+  message JobRequestDetail {
+    uint32 id = 1;
+    string status = 2;
+    string keyword = 3;
+  }
+
+
+  message JobDetail {
+    uint32 id = 1;
+    int32 job_id = 2;
+    string title = 3;
+    string source = 4;
+    string url = 5;
+    double promo_price = 6;
+    double price = 7;
+    int32 stock = 8;
+    string status = 9;
+    string reason = 10;
+    int32 sold = 11;
+    int32 quantity = 12;
+    string quantity_unit = 13;
+    double uom_quantity = 14;
+    string uom_unit = 15;
+    string location = 16;
+    double shipping_cost = 17;
+    string seller_type = 18;
+    string seller_last_seen = 19;
+    string barcode = 20;
+  }
+
+
+  service HermesScraperService {
+    rpc Callback(HermesScraperCallbackPayload)
+        returns (common.CosmartStandardResponse);
+    rpc RequestScraping(HermesScraperRequestScrapingPayload)
+        returns (common.CosmartStandardResponse);
+    rpc GetJobs(GetJobsRequestPayload) returns (GetJobsResponsePayload);
+    rpc GetJobByID(GetJobByIDRequestPayload) returns (GetJobByIDResponsePayload);
+  }
+
+
+  message HermesScraperCallbackPayload {
+    int32 job_id = 1;
+    string title = 2;
+    string source = 3;
+    double promo_price = 4;
+    string url = 5;
+    double price = 6;
+    int32 stock = 7;
+    string status = 8;
+    string reason = 9;
+    int32 sold = 10;
+    int32 quantity = 11;
+    string quantity_unit = 12;
+    float uom_quantity = 13;
+    string uom_unit = 14;
+    string location = 15;
+    double shipping_cost = 16;
+    string seller_type = 17;
+    string seller_last_seen = 18;
+    string barcode = 19;
+  }
+
+
+  message HermesScraperRequestScrapingPayload { string keyword = 1; }
+
+
+  message GetJobsRequestPayload {
+    string start_date = 1;
+    string end_date = 2;
+  }
+
+
+  message GetJobsResponsePayload { repeated JobRequestDetail list = 1; }
+
+
+  message GetJobByIDRequestPayload { uint32 job_id = 1; }
+
+
+  message GetJobByIDResponsePayload { repeated JobDetail list = 1; }

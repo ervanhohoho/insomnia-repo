@@ -1,0 +1,135 @@
+_id: pf_f06b04567ff5435faeac12024e8eb46b
+type: ProtoFile
+parentId: pd_7a795cf02bc9452c9fd3adb310dd8dc4
+modified: 1692869778926
+created: 1692869778926
+name: scraper.proto
+protoText: >-
+  syntax = "proto3";
+
+
+  package pricing.v1.scraper;
+
+
+  option go_package = "github.com/cosmart-tech/protobuf-collection/pb_gen/pricing/v1/scraper";
+
+
+  option java_package = "io.grpc.cosmart.pricing.v1.scraper";
+
+
+  // ScraperService is responsible for managing scraper context on pricing
+
+  service ScraperService {
+      // New is an operation to onboard new sku on scraper service
+      // this function will create new sku, new keywords, and new urls 
+      rpc New(NewRequest) returns (NewResponse);
+
+      // UpsertKeyword is an operation to upsert keyword
+      rpc UpsertKeyword(UpsertKeywordRequest) returns (UpsertKeywordResponse);
+
+      // UpsertUrl is an operation to upsert url
+      rpc UpsertUrl(UpsertUrlRequest) returns (UpsertUrlResponse);
+
+      // GetSKUPrices is an operation to get price details min, median, max and historicals.
+      rpc GetSKUPrices(GetSKUPricesRequest) returns (GetSKUPricesResponse);
+  }
+
+
+  // NewRequest contains a request to onboard new sku.
+
+  message NewRequest {
+      message SkuKeyword {
+          string keyword = 1;
+          string positive_keyword = 2;
+          string negative_keyword = 3;
+      }
+      
+      message SkuUrl {
+          string url = 1;
+          string variant = 2;
+          float quantity = 3;
+          string source = 4;
+      }
+
+      int64 sku_id = 1;
+      SkuKeyword keyword = 2;
+      repeated SkuUrl urls = 3;
+      string created_by = 4;
+  }
+
+
+  // NewResponse contains the result of NewRequest.
+
+  message NewResponse {
+
+  }
+
+
+  // UpsertKeywordRequest contains a request to upsert keyword.
+
+  message UpsertKeywordRequest {
+      int64 sku_id = 1;
+      string keyword = 2;
+      string positive_keyword = 3;
+      string negative_keyword = 4;
+      string source = 6;
+      string updated_by = 7;
+  }
+
+
+  // UpsertKeywordResponse contains the result of UpsertKeywordRequest.
+
+  message UpsertKeywordResponse {
+
+  }
+
+
+  // UpsertUrlRequest contains a request to upsert url.
+
+  message UpsertUrlRequest {
+      int64 sku_id = 1;
+      string url = 2;
+      string variant = 3;
+      float quantity = 4;
+      string source = 5;
+      string updated_by = 6;
+  }
+
+
+  // UpsertUrlResponse contains the result of UpsertUrlRequest.
+
+  message UpsertUrlResponse {
+
+  }
+
+
+  //GetSKUPricesRequest contains sku_id
+
+  message GetSKUPricesRequest{
+      int32 sku_id = 1;
+  }
+
+
+  // GetSKUPricesResponse contains result of sku prices.
+
+  message GetSKUPricesResponse{
+      int32 sku_id = 1;
+      string sku_number = 2;
+  	string min_price = 3;
+  	string median_price = 4;
+  	string max_price = 5;       
+  	map<string, ListOfPriceHistory> price_histories = 6; 
+      string current_regular_user_price = 7;
+      string current_member_price = 8;
+  }
+
+
+  message ListOfPriceHistory {
+      repeated PriceHistory list = 1;
+  }
+
+
+  message PriceHistory {
+      string price = 1;
+      string date = 2;
+  }

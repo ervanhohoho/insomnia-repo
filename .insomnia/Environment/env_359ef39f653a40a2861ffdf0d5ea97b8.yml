@@ -1,0 +1,14 @@
+_id: env_359ef39f653a40a2861ffdf0d5ea97b8
+type: Environment
+parentId: env_390223c592083e2a2ac1d294b3a9ddaa05a6eada
+modified: 1692871262389
+created: 1692871221481
+name: DEV
+data:
+  hermes-grpc: localhost:2010
+dataPropertyOrder:
+  "&":
+    - hermes-grpc
+color: null
+isPrivate: false
+metaSortKey: 1692871221481

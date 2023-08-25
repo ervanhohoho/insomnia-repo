@@ -1,0 +1,132 @@
+_id: pf_a31164d07ea745a2a2bcf10bd2be24d5
+type: ProtoFile
+parentId: pd_4486fae1f13a4b79b10f96dbebb8f86d
+modified: 1692869778913
+created: 1692869778913
+name: sku.proto
+protoText: >
+  syntax = "proto3";
+
+
+  package cosmart.cops.v1.sku;
+
+
+  option java_package = "io.grpc.cosmart.cops.v1.sku";
+
+  option go_package = "github.com/cosmart-tech/protobuf-collection/pb_gen/cops/v1/sku";
+
+
+  import "google/protobuf/timestamp.proto";
+
+  import "google/api/annotations.proto";
+
+
+  //Provides simpler SKU details payload for mapping purposes
+
+  message SkuMapping {
+    string sku_number = 1;
+    string dear_sku_number = 2;
+    bool is_active = 3;
+  }
+
+
+  // SkuDetail contains sku data definition
+
+  message SkuDetail {
+    int64 id = 1;
+    string sku_number = 2;
+    string dear_sku_number = 3;
+    string sku_name = 4;
+    float uom_quantity = 5;
+    string barcode = 6;
+    string is_active = 7;
+    int32 moq = 8;
+    int32 max_order_quantity = 9;
+    string parent_sku = 10;
+    string description = 11;
+    bool is_live = 12;
+    google.protobuf.Timestamp live_at = 13;
+    google.protobuf.Timestamp expiry_date = 14;
+    bool is_legal_age = 15;
+    bool is_tax_exemptable = 16;
+    bool is_clearance = 17;
+    string principal_name = 18;
+    string brand = 19;
+    string uom = 20;
+    string packaging = 21;
+    repeated string sku_images = 22;
+    repeated Category categories = 23;
+    bool is_virtual = 24;
+
+    message Category{
+      int64 id = 1;
+      string category_name = 2;
+      bool is_active = 3;
+      repeated Subcategory subcategories = 4;
+
+      message Subcategory{
+        int64 id = 1;
+        string subcategory_name = 2;
+        bool is_active = 3;
+      }
+    }
+  }
+
+
+  // SkuService is responsible for managing sku context
+
+  service SkuService{
+    // GetList is an operation to get list of skus
+    rpc GetList(GetListRequest) returns (GetListResponse){
+      option(google.api.http) = {
+        post: "/v1/cops/sku"
+        body: "*"
+      };
+    };
+    rpc GetMapping(GetMappingRequest) returns (GetMappingResponse){
+      option(google.api.http) = {
+        post: "/v1/cops/mapping"
+        body: "*"
+      };
+    };
+  }
+
+
+  ///GetMappingRequest provides interface to search mapping based on platform/dear SKU
+
+  message GetMappingRequest{
+    string searchBy = 1; //dear || platform
+    repeated string sku_numbers = 2;
+  }
+
+
+  message GetMappingResponse{
+    repeated SkuMapping sku_mappings = 1;
+  }
+
+
+  // GetListRequest contains request of get list sku 
+
+  message GetListRequest{
+    repeated int64 sku_ids = 1;
+    repeated string sku_numbers = 2;
+    repeated string dear_sku_numbers = 3;
+    repeated int64 categories = 4;
+    repeated int64 subcategories = 5;
+    bool active_only = 6;
+    int32 page = 7;
+    int32 page_item_count = 8;
+    bool freebies = 9;
+    string keyword = 10;
+  }
+
+
+  // GetListResponse contains the result of GetListRequest
+
+  message GetListResponse{
+    bool success = 1;
+    repeated SkuDetail sku_detail_list = 2;
+    bool has_next_page = 3;
+    int32 count = 4;
+    int64 total_count = 5;
+  }

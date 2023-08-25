@@ -1,0 +1,58 @@
+_id: pf_cbcd29c3088840d790429f0c5d2ed702
+type: ProtoFile
+parentId: pd_bf9d99677332435eb53f4f31bcb4549b
+modified: 1692869778911
+created: 1692869778911
+name: category.proto
+protoText: >
+  syntax = "proto3";
+
+
+  package cosmart.cops.v1.category;
+
+
+  option java_package = "io.grpc.cosmart.cops.v1.category";
+
+  option go_package = "github.com/cosmart-tech/protobuf-collection/pb_gen/cops/v1/category";
+
+
+  message Category{
+    int64 id = 1;
+    string category = 2;
+    bool is_active = 3;
+  }
+
+
+  // CategoryService is responsible for managing category context
+
+  service CategoryService{
+    // GetList is an operation to get list of categories
+    rpc GetList(CategoryRequest) returns (CategoryResponse);
+
+    // GetListSubCategories is an opertaion to get list of sub categories
+    rpc GetListSubCategories(CategoryRequest) returns (CategoryResponse);
+  }
+
+
+  // CategoryRequest contains a empty category request
+
+  message CategoryRequest{
+
+  }
+
+
+  // CategoryResponse contains the result of CategoryRequest
+
+  message CategoryResponse{
+    repeated Category categories = 1;
+  }
+
+
+  // SubcategoryResponse contains the result of CategoryRequest
+
+  message SubcategoryResponse{
+    int64 id = 1;
+    string subcategory = 2;
+    int64 category_id = 3;
+    bool is_active = 4;
+  }

@@ -1,0 +1,60 @@
+_id: pf_5c0bd923d3e043aa8cd6a37f93cbc42b
+type: ProtoFile
+parentId: pd_5d0dc01a73ea409981b1724eb44ff20a
+modified: 1692869778921
+created: 1692869778921
+name: geo.proto
+protoText: "syntax = \"proto3\";
+
+
+  package operations.v1.geo;
+
+
+  option go_package =
+  \"github.com/cosmart-tech/protobuf-collection/pb_gen/operations/v1/geo\";
+
+
+  message CheckPostalCodeSupportedRequest{
+
+  \    string PostalCode= 1;
+
+  }
+
+
+  message CheckPostalCodeSupportedResponse{
+
+  \    bool IsSupported = 1;
+
+  }
+
+
+  message GetSupportedPostalCodesRequest{
+
+  }
+
+
+  message PostalCodeList{
+
+  \    repeated string list = 1;
+
+  }
+
+
+  message GetSupportedPostalCodesResponse{
+
+  \    map<string, PostalCodeList> mapCityToPostalCodes = 1;
+
+  }
+
+
+  service OporGeoService{
+
+  \    rpc CheckPostalCodeSupported(CheckPostalCodeSupportedRequest) returns
+  (CheckPostalCodeSupportedResponse);
+
+  \    rpc GetSupportedPostalCodes(GetSupportedPostalCodesRequest) returns
+  (GetSupportedPostalCodesResponse);
+
+  }
+
+  \  "

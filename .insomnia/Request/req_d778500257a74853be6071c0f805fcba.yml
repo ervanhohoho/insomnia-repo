@@ -1,0 +1,29 @@
+_id: req_d778500257a74853be6071c0f805fcba
+type: Request
+parentId: fld_0492a4812d664a9ca94521d6646565eb
+modified: 1693906084591
+created: 1693906084591
+url: "{{opor-api}}/api/v1/order/status"
+name: Update Status
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+        "updatedOrderStatusList": [{
+            "orderId": "2022917697770877",
+            "status": "Picked"
+        }]
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084591
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

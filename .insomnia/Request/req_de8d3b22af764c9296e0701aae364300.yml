@@ -1,0 +1,23 @@
+_id: req_de8d3b22af764c9296e0701aae364300
+type: Request
+parentId: fld_aa65968db48a45b5aa30db029f480c44
+modified: 1693906084594
+created: 1693906084594
+url: "{{opor-api}}/api/v1/purchase_order/wms_cancel"
+name: Cancel WMS PO
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: PO-00002
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084594
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

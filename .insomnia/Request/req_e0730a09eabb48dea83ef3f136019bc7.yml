@@ -1,0 +1,21 @@
+_id: req_e0730a09eabb48dea83ef3f136019bc7
+type: Request
+parentId: fld_531d54f4af1a4994ae0b5f61c61c89a7
+modified: 1693906084589
+created: 1693906084589
+url: "{{opor-api}}/api/v1/warehouse/check-discrepancy"
+name: Check Discrepancies
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084589
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_987782b4f67645ddb21d3b1613c4ebc9
+type: Request
+parentId: fld_63533752f8df4349a2b2fc499dd78582
+modified: 1693906084588
+created: 1693906084588
+url: "{{opor-api}}/api/v1/products/sync_sku_tax"
+name: Sync SKU Tax
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084588
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_a488d9927b6c4dd7a299d4c6d1e4b3af
+type: Request
+parentId: fld_531d54f4af1a4994ae0b5f61c61c89a7
+modified: 1693906084589
+created: 1693906084589
+url: ""
+name: Sync batch
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084589
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

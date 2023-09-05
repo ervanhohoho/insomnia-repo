@@ -1,0 +1,40 @@
+_id: req_8c588221bed748baa5b19bb19c4c226e
+type: Request
+parentId: fld_0492a4812d664a9ca94521d6646565eb
+modified: 1693906084591
+created: 1693906084591
+url: "{{opor-api}}/api/v1/order/duplicate"
+name: Duplicate Order
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    [
+        "2022919397313439",
+    "2022919744707132",
+    "2022919257456557",
+    "2022919464353867",
+    "2022919815626577",
+    "2022919972571671",
+    "2022919423434777",
+    "2022919727891557",
+    "2022919375465724",
+    "2022919146434217",
+    "2022919621470647",
+    "2022919980135402",
+    "2022919231359978",
+    "2022919275440655",
+    "2022919255220843"
+    ]
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084591
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

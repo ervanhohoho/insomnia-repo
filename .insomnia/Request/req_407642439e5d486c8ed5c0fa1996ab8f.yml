@@ -1,0 +1,21 @@
+_id: req_407642439e5d486c8ed5c0fa1996ab8f
+type: Request
+parentId: fld_63533752f8df4349a2b2fc499dd78582
+modified: 1693906084588
+created: 1693906084588
+url: "{{opor-api}}/api/v1/products/dear/sync_availability"
+name: Dear Sync
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084588
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

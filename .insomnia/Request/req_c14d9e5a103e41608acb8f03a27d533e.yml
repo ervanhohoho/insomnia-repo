@@ -1,0 +1,21 @@
+_id: req_c14d9e5a103e41608acb8f03a27d533e
+type: Request
+parentId: fld_aa65968db48a45b5aa30db029f480c44
+modified: 1693906084592
+created: 1693906084592
+url: "{{opor-api}}/api/v1/purchase_order/ims_poll_and_update"
+name: Poll and update IMS Purchases
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084592
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_fac1b07e03054cd184c1a0477a209090
+type: Request
+parentId: fld_aa65968db48a45b5aa30db029f480c44
+modified: 1693906084595
+created: 1693906084595
+url: "{{opor-api}}/api/v1/purchase_order/post-receive-to-ims"
+name: POST RECEIVE TO IMS
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "purchaseId": 174
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084595
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

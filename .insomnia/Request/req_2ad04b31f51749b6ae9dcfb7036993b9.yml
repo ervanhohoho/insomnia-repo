@@ -1,0 +1,27 @@
+_id: req_2ad04b31f51749b6ae9dcfb7036993b9
+type: Request
+parentId: fld_0492a4812d664a9ca94521d6646565eb
+modified: 1693906084591
+created: 1693906084591
+url: "{{opor-api}}/api/v1/order/event"
+name: Handle Order Event
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "orderId": "2022725628027528",
+        "eventType": "order_created"
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084591
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

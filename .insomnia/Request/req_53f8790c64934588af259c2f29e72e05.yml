@@ -1,0 +1,26 @@
+_id: req_53f8790c64934588af259c2f29e72e05
+type: Request
+parentId: fld_b47cd05b13a64520b410bb321dd41312
+modified: 1693906084586
+created: 1693906084586
+url: "{{opor-api}}/api/v1/users"
+name: Get User
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "userId": "USER_ID2"
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084586
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

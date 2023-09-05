@@ -1,0 +1,24 @@
+_id: req_bbbdb6672c4e423999b0dc492df4b6c6
+type: Request
+parentId: fld_0492a4812d664a9ca94521d6646565eb
+modified: 1693906084591
+created: 1693906084591
+url: "{{opor-api}}/api/v1/order/sync-batch"
+name: Batch Order
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: mode
+    value: all
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1693906084591
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

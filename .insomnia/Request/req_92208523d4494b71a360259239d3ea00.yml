@@ -1,0 +1,32 @@
+_id: req_92208523d4494b71a360259239d3ea00
+type: Request
+parentId: fld_63533752f8df4349a2b2fc499dd78582
+modified: 1693906084587
+created: 1693906084587
+url: "{{opor-api}}/api/v1/products/availability"
+name: Get Availability
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    [
+        "48510103",
+    "48510203",
+    "32810102",
+    "28310303",
+    "32910002",
+    "18210001",
+    "32910102"
+    ]
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084587
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

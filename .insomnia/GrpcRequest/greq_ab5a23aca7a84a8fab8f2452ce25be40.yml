@@ -1,0 +1,43 @@
+_id: greq_ab5a23aca7a84a8fab8f2452ce25be40
+type: GrpcRequest
+parentId: fld_c8077bd5c7184fb4b08301537238ddab
+modified: 1693884845140
+created: 1693884598293
+url: "{{ _['cops-grpc'] }}"
+name: Edit SKU
+description: ""
+protoFileId: ""
+protoMethodName: /cosmart.cops.v1.sku.SkuService/EditSKU
+metadata: []
+body:
+  text: |-
+    {
+      "id": 20,
+      "skuNumber": "Hello",
+      "dearSkuNumber": "Hello",
+      "skuName": "Hello",
+      "barcode": "Hello",
+      "isActive": "Hello",
+      "moq": 10,
+      "maxOrderQuantity": 10,
+      "parentSku": "Hello",
+      "description": "Hello",
+      "isVirtual": true,
+      "isLegalAge": true,
+      "isTaxExemptable": true,
+      "isClearance": true,
+      "freshType": "Hello",
+      "brandId": 20,
+      "uomId": 20,
+      "packagingId": 20,
+      "uomQuantity": "Hello",
+      "subcategoryId": [
+        20
+      ],
+      "skuImages": [
+        "Hello"
+      ],
+      "updatedBy": "Hello"
+    }
+metaSortKey: -1693884598293
+isPrivate: false

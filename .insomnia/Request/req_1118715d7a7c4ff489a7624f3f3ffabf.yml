@@ -1,0 +1,21 @@
+_id: req_1118715d7a7c4ff489a7624f3f3ffabf
+type: Request
+parentId: fld_07ebaea67bf6409fb9f1c0f61e17315c
+modified: 1693906084598
+created: 1693906084598
+url: "{{opor-api}}/api/v1/geo/supported-postal-codes"
+name: Get Supported Postal Codes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084598
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

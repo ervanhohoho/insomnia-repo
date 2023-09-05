@@ -1,0 +1,24 @@
+_id: req_7f0b639ad6fb4a8f864a27d6d6f6b0d6
+type: Request
+parentId: fld_63533752f8df4349a2b2fc499dd78582
+modified: 1693906084588
+created: 1693906084588
+url: "{{opor-api}}/api/v1/products/:warehouseName/availability"
+name: Get Availability with warehousename
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: skuList
+    value: "55510002"
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1693906084588
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_bce7265c2d364ca1a89db394210f5851
+type: Request
+parentId: fld_f8693b991098438aaa9ff14817f19742
+modified: 1693906084600
+created: 1693906084600
+url: ""
+name: Measure Distance
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

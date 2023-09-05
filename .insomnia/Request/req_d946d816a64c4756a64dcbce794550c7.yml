@@ -1,0 +1,26 @@
+_id: req_d946d816a64c4756a64dcbce794550c7
+type: Request
+parentId: fld_531d54f4af1a4994ae0b5f61c61c89a7
+modified: 1693906084589
+created: 1693906084589
+url: "{{opor-api}}/api/v1/warehouse/sales/order"
+name: Sales Order
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "orderId": "2022118257209181"
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084589
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

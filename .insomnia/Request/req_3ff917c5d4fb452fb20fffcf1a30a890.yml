@@ -1,0 +1,30 @@
+_id: req_3ff917c5d4fb452fb20fffcf1a30a890
+type: Request
+parentId: fld_3149f301f6e94a4cb23ecd5052c95454
+modified: 1693906084599
+created: 1693906084599
+url: "{{opor-api}}/api/v1/supplier/sku"
+name: Search SKU
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: keyword
+    value: indomie
+    disabled: false
+  - name: page
+    value: "1"
+    disabled: false
+  - name: count
+    value: "2"
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1693906084599
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

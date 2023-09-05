@@ -1,0 +1,21 @@
+_id: req_1c9ad18ff7154f1c8320b3f16c1b3b35
+type: Request
+parentId: fld_3149f301f6e94a4cb23ecd5052c95454
+modified: 1693906084599
+created: 1693906084599
+url: "{{opor-api}}/api/v1/supplier/latest-price/23510101"
+name: Get Latest Prices
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084599
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

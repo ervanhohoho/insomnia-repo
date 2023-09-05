@@ -1,0 +1,24 @@
+_id: req_42a4b5d4645c4a808d24be6d1a97e575
+type: Request
+parentId: fld_e5b7c5e1ad97479b83fd84c168d8aaf0
+modified: 1693906084598
+created: 1693906084598
+url: "{{opor-api}}/api/v1/finance/xendit/cashback"
+name: Trigger Xendit Cashback
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: date
+    value: 2023-03-27
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1693906084598
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

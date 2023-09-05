@@ -1,0 +1,24 @@
+_id: req_e9c5fcfd709241fc82954866ca1e6e27
+type: Request
+parentId: fld_07ebaea67bf6409fb9f1c0f61e17315c
+modified: 1693906084598
+created: 1693906084598
+url: "{{opor-api}}/api/v1/geo/check-supported-postal-codes"
+name: Check Postal Code
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: postal_code
+    value: ""
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1693906084598
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

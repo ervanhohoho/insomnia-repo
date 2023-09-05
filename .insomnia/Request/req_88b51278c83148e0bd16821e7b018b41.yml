@@ -1,0 +1,21 @@
+_id: req_88b51278c83148e0bd16821e7b018b41
+type: Request
+parentId: fld_9ffd1515c3f448e1bac325da68bef920
+modified: 1693906084600
+created: 1693906084600
+url: ""
+name: Update Batch
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

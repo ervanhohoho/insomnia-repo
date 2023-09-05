@@ -1,0 +1,75 @@
+_id: req_80871504b2504e0dbda67b8b39c38233
+type: Request
+parentId: fld_aa65968db48a45b5aa30db029f480c44
+modified: 1693906084595
+created: 1693906084595
+url: "{{opor-api}}/api/v1/purchase_order/grn/webhook"
+name: GRN Integration
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "warehouse_id": "WH-CGK41",
+        "order_no": "PO-01667",
+        "customer_id": "JOY",
+        "order_type": "CG",
+        "received_time": "2022-12-12 11:35:24",
+        "userDefine1": "",
+        "details": [
+            {
+                "reference_no": "PO-01667",
+                "line_no": "1",
+                "sku": "11410701",
+                "received_qty": 60,
+                "mfg_date": "",
+                "exp_date": "2024-08-01",
+                "batch_no": "",
+                "serial_no": "",
+                "product_condition": "Good",
+                "receipt_date": "2022-12-12",
+                "project_ref_no": "",
+                "grn_no": "ASNPO-01667"
+            },
+            {
+                "reference_no": "PO-01667",
+                "line_no": "2",
+                "sku": "11410401",
+                "received_qty": 24,
+                "mfg_date": "",
+                "exp_date": "2023-11-01",
+                "batch_no": "",
+                "serial_no": "",
+                "product_condition": "Good",
+                "receipt_date": "2022-12-12",
+                "project_ref_no": "",
+                "grn_no": "ASNPO-01667"
+            },
+            {
+                "reference_no": "PO-01667",
+                "line_no": "3",
+                "sku": "11410001",
+                "received_qty": 24,
+                "mfg_date": "",
+                "exp_date": "2025-11-02",
+                "batch_no": "",
+                "serial_no": "",
+                "product_condition": "Good",
+                "receipt_date": "2022-12-12",
+                "project_ref_no": "",
+                "grn_no": "ASNPO-01667"
+            }
+        ]
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084595
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

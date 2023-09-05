@@ -1,0 +1,43 @@
+_id: req_9a01b06c4d404c5682a3d28ae40f3726
+type: Request
+parentId: fld_0758e91d1ded429fa77ea78a49b53cd8
+modified: 1692947328430
+created: 1692946493816
+url: "{{ _['grpc-gateway'] }}/v1/hermes/scraper/callback"
+name: Callback via grpc gateway
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "url": "https://api.astronauts.id/api/product/1301/location/15",
+        "job_id": 122,
+        "source": "Astro",
+        "title": "Rose Brand Tepung Beras 500gr",
+        "status": "valid",
+        "reason": "",
+        "rating": 5,
+        "stock": 14,
+        "uom_quantity": 500.0,
+        "uom_unit": "gram",
+        "quantity": 1,
+        "quantity_unit": "",
+        "promo_price": 8100,
+        "price": 8900
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1692946493816
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

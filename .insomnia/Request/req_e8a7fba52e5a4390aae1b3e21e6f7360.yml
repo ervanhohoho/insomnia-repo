@@ -1,0 +1,26 @@
+_id: req_e8a7fba52e5a4390aae1b3e21e6f7360
+type: Request
+parentId: fld_9ffd1515c3f448e1bac325da68bef920
+modified: 1693906084600
+created: 1693906084600
+url: "{{opor-api}}/api/v1/logistic/batch"
+name: Add orderiD to batch
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "orderId": "202361580398146"
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

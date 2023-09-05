@@ -1,0 +1,23 @@
+_id: req_35daf67e792d46e1894edbb99547828a
+type: Request
+parentId: fld_0492a4812d664a9ca94521d6646565eb
+modified: 1693906084591
+created: 1693906084591
+url: "{{opor-api}}/api/v1/order/cancel"
+name: Confirm Cancelled
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: '{"orderId": "202294321015319", "eventType": "order_confirmed"}'
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693906084591
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

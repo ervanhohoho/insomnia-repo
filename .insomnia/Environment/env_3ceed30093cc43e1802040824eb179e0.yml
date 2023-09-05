@@ -1,0 +1,14 @@
+_id: env_3ceed30093cc43e1802040824eb179e0
+type: Environment
+parentId: env_390223c592083e2a2ac1d294b3a9ddaa05a6eada
+modified: 1693387948324
+created: 1693387665426
+name: PROD
+data:
+  hermes-grpc: grpcs://hermes-api.cosmart.id:2010
+dataPropertyOrder:
+  "&":
+    - hermes-grpc
+color: null
+isPrivate: false
+metaSortKey: 1693387665426

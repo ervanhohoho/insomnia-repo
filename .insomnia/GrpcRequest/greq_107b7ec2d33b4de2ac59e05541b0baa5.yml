@@ -1,19 +1,19 @@
 _id: greq_107b7ec2d33b4de2ac59e05541b0baa5
 type: GrpcRequest
 parentId: fld_0758e91d1ded429fa77ea78a49b53cd8
-modified: 1692872439845
+modified: 1693388754558
 created: 1692872368340
 url: "{{ _['hermes-grpc'] }}"
 name: GetJobs
 description: ""
-protoFileId: pf_5a90f469ec64490197777891406db5a4
+protoFileId: ""
 protoMethodName: /cosmart.hermes.v1.scraper.HermesScraperService/GetJobs
 metadata: []
 body:
   text: |-
     {
-    	"start_date": "2023-08-24",
-    	"end_date": "2023-08-24"
+    	"start_date": "2023-08-30",
+    	"end_date": "2023-08-30"
     }
 metaSortKey: -1692872368340
 isPrivate: false

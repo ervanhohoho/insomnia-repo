@@ -1,0 +1,32 @@
+_id: req_3fc83e7e3dec4f62a297df1e91d9aa1f
+type: Request
+parentId: fld_6cdd399d9692442f8e571aab5f5492ce
+modified: 1693988812583
+created: 1693988700079
+url: "{{ _['grpc-gateway'] }}/v1/cops/download/bulk"
+name: Download File
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"skuIds": [
+    		147
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1693988700079
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

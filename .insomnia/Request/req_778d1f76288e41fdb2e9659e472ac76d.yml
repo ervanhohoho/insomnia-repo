@@ -1,0 +1,35 @@
+_id: req_778d1f76288e41fdb2e9659e472ac76d
+type: Request
+parentId: fld_4edbde9662864837b8f0ca7ff2d9f4ad
+modified: 1694575816035
+created: 1694575816035
+url: "{{api}}/api/v1/products/bulk-category-settings"
+name: Bulk Upsert Subcategory Settings
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"subcategoryId\": 1,\r
+
+    \        \"slug\": \"string\",\r
+
+    \        \"rank\": 1\r
+
+    \    }\r
+
+    ]"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694575816035
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

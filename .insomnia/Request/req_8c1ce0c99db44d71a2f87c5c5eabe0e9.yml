@@ -1,0 +1,26 @@
+_id: req_8c1ce0c99db44d71a2f87c5c5eabe0e9
+type: Request
+parentId: fld_693e25062c48483fa84e5687c193fed6
+modified: 1694575816024
+created: 1694575816024
+url: "{{deliveree-api}}/v1/deliveries/:bookingId"
+name: GET Delivery Details
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: "Accept-Language\t"
+    value: en
+    disabled: true
+headers:
+  - name: Accept-Language
+    value: en
+authentication: {}
+metaSortKey: -1694575816024
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

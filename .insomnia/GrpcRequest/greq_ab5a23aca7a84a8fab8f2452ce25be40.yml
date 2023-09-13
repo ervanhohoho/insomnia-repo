@@ -1,7 +1,7 @@
 _id: greq_ab5a23aca7a84a8fab8f2452ce25be40
 type: GrpcRequest
 parentId: fld_c8077bd5c7184fb4b08301537238ddab
-modified: 1693884845140
+modified: 1694059195292
 created: 1693884598293
 url: "{{ _['cops-grpc'] }}"
 name: Edit SKU
@@ -13,31 +13,31 @@ body:
   text: |-
     {
       "id": 20,
-      "skuNumber": "Hello",
-      "dearSkuNumber": "Hello",
-      "skuName": "Hello",
+      "sku_number": "Hello",
+      "dear_sku_number": "Hello",
+      "sku_name": "Hello",
       "barcode": "Hello",
-      "isActive": "Hello",
+      "is_active": "Y",
       "moq": 10,
-      "maxOrderQuantity": 10,
-      "parentSku": "Hello",
+      "max_order_quantity": 10,
+      "parent_sku": "Hello",
       "description": "Hello",
-      "isVirtual": true,
-      "isLegalAge": true,
-      "isTaxExemptable": true,
-      "isClearance": true,
-      "freshType": "Hello",
-      "brandId": 20,
-      "uomId": 20,
-      "packagingId": 20,
-      "uomQuantity": "Hello",
-      "subcategoryId": [
+      "is_virtual": true,
+      "is_legal_age": true,
+      "is_tax_exemptable": true,
+      "is_clearance": true,
+      "fresh_type": "Hello",
+      "brand_id": 20,
+      "uom_id": 20,
+      "packaging_id": 20,
+      "uom_quantity": "20",
+      "subcategory_id": [
         20
       ],
-      "skuImages": [
+      "sku_images": [
         "Hello"
       ],
-      "updatedBy": "Hello"
+      "updated_by": "teddy.saputra@joybox.co.id"
     }
 metaSortKey: -1693884598293
 isPrivate: false

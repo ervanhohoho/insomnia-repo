@@ -1,0 +1,23 @@
+_id: req_486130d866434103afb9b2300c72ad15
+type: Request
+parentId: fld_1dd4ce6cea3f4a70a639ef7fba40626c
+modified: 1694597873077
+created: 1694597175853
+url: "{{ _['grpc-gateway'] }}/v1/demand-platform/products?skuIds=1,2"
+name: Demand Forwarded
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1694597175853
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

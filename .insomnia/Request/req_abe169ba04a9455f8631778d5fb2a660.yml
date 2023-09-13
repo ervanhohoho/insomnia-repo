@@ -1,0 +1,66 @@
+_id: req_abe169ba04a9455f8631778d5fb2a660
+type: Request
+parentId: fld_36dc51d2046640c4a8fb920b0f41df13
+modified: 1694578361097
+created: 1694060117477
+url: "{{ _['grpc-gateway'] }}/v1/cops/api/sku"
+name: New SKU
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "sku_number": "",
+      "sku_name": "",
+      "dear_sku_number": "Hello1",
+      "barcode": "Hello",
+      "moq": 10,
+      "max_order_quantity": 10,
+      "parent_sku": "Hello",
+      "description": "Hello",
+      "is_virtual": true,
+      "is_legal_age": true,
+      "is_tax_exemptable": true,
+      "is_clearance": true,
+      "brand_id": 326,
+      "uom_id": 2,
+      "packaging_id": 14,
+      "uom_quantity": 1,
+      "subcategory_id": [
+        40
+      ],
+      "sku_images": [
+        "https://previews.123rf.com/images/carmenbobo/carmenbobo1409/carmenbobo140900741/31777554-stamp-with-word-standard-inside.jpg"
+      ],
+      "created_by": "teddy.saputra@joybox.co.id",
+      "fresh_type": "Hello",
+      "pricing_details": {
+        "keyword": "Hello",
+        "positive_keyword": "Hello",
+        "negative_keyword": "Hello",
+        "urls": [
+          {
+            "url": "Hello",
+            "variant": "Hello",
+            "quantity": 1.1,
+            "source": "Hello"
+          }
+        ]
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1694060117477
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_ceecb202eb424364bf3a38191b10d7f4
+type: Request
+parentId: fld_4edbde9662864837b8f0ca7ff2d9f4ad
+modified: 1694575816034
+created: 1694575816034
+url: "{{api}}/api/v1/products/subcategories/settings"
+name: PUT Edit Subcategory Setting
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: "{\r
+
+    \  \"subcategoryId\": \"12\",\r
+
+    \  \"slug\": \"slug-name\",\r
+
+    \  \"rank\": 123456789\r
+
+    }"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694575816034
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

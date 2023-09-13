@@ -1,0 +1,42 @@
+_id: req_e5714edf245a4991af0ac96813ad2c38
+type: Request
+parentId: fld_685ddcabb7504cfe91338e92f172bc53
+modified: 1694594608100
+created: 1694575816039
+url: "{{ _['grpc-gateway-cops'] }}/api/category"
+name: POST New Category
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"category_name\": \"Sebuah kategori baru\",\r
+
+    \    \"is_active\": true,\r
+
+    \    \"created_by\": \"teddy.saputra@joybox.co.id\",\r
+
+    \    \"slug\": \"sebuah-kategori-baru\",\r
+
+    \    \"rank\": 30,\r
+
+    \    \"coming_soon\": true\r
+
+    }"
+parameters:
+  - name: ""
+    value: null
+    disabled: true
+headers:
+  - name: accept
+    value: "*/*"
+authentication: {}
+metaSortKey: -1694575816039
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

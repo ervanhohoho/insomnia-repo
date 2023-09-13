@@ -1,7 +1,7 @@
 _id: req_124d65b242144e2aaeff4e5ebbc29b55
 type: Request
-parentId: fld_6cdd399d9692442f8e571aab5f5492ce
-modified: 1693885862498
+parentId: fld_36dc51d2046640c4a8fb920b0f41df13
+modified: 1694059271917
 created: 1693885784109
 url: "{{ _['grpc-gateway'] }}/v1/cops/upload/bulk"
 name: Upload file
@@ -16,6 +16,14 @@ body:
       description: ""
       type: file
       fileName: /home/ervan/Downloads/sku2023-09-Mo_15-31_cut.csv
+    - id: pair_75903514be414413a50ce4e284521c82
+      name: mode
+      value: update
+      description: ""
+    - id: pair_8deaf4e2136441f3bcfcf30cc2e85830
+      name: createdBy
+      value: teddy.saputra@joybox.co.id
+      description: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -23,7 +31,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.6
 authentication: {}
-metaSortKey: -1693885784109
+metaSortKey: -1694059270706
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

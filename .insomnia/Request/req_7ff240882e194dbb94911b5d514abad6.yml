@@ -1,0 +1,33 @@
+_id: req_7ff240882e194dbb94911b5d514abad6
+type: Request
+parentId: fld_a56c9665b41b4e6fbba9153ce5cbcf1e
+modified: 1694593669112
+created: 1694575816043
+url: "{{ _['grpc-gateway-cops'] }}/api/sku"
+name: Edit SKU
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"id\": 1,\r
+
+    \  \"fresh_type\": \"\",\r
+
+    \  \"updated_by\": \"teddy.saputra@joybox.co.id\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1694575816043
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

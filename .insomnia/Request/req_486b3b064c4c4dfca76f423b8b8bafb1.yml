@@ -1,0 +1,48 @@
+_id: req_486b3b064c4c4dfca76f423b8b8bafb1
+type: Request
+parentId: fld_a56c9665b41b4e6fbba9153ce5cbcf1e
+modified: 1694578380347
+created: 1694575816042
+url: "{{ _['cops-api'] }}/api/sku"
+name: POST New SKU
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "sku_number": "",
+      "sku_name": "Kucing",
+      "dear_sku_number": "1029384756",
+      "barcode": "12345",
+      "moq": 1,
+      "max_order_quantity": 999,
+      "description": "Sebuah kocheng",
+      "is_legal_age": false,
+      "is_tax_exemptable": true,
+      "is_clearance": true,
+      "brand_id": 1,
+      "uom_id": 1,
+      "packaging_id": 1,
+      "uom_quantity": 1,
+      "subcategory_id": [
+        1
+      ],
+      "sku_images": [
+        "https://pbs.twimg.com/profile_images/625633822235693056/lNGUneLX_400x400.jpg"
+      ],
+      "created_by": "teddy.saputra@joybox.co.id"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1694575816042
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

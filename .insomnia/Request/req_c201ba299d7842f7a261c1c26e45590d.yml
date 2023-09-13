@@ -1,0 +1,23 @@
+_id: req_c201ba299d7842f7a261c1c26e45590d
+type: Request
+parentId: fld_4edbde9662864837b8f0ca7ff2d9f4ad
+modified: 1694575816035
+created: 1694575816035
+url: "{{api}}/api/v1/products/bulk-get-subcategory"
+name: Bulk GET Category Settings
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "[\r\n    1,15,16,17\r\n]"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694575816035
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

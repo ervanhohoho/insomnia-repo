@@ -1,0 +1,26 @@
+_id: req_4edc60c8df9d41a3af51c89fa6c2f96f
+type: Request
+parentId: fld_a56c9665b41b4e6fbba9153ce5cbcf1e
+modified: 1694575816047
+created: 1694575816047
+url: "{{cops-api}}/api/category/download"
+name: Download CSV
+description: ""
+method: GET
+body:
+  mimeType: ""
+  text: "[30]"
+parameters:
+  - name: type
+    value: category
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1694575816047
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

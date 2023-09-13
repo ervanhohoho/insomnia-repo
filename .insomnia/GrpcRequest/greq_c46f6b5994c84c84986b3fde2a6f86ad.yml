@@ -1,0 +1,18 @@
+_id: greq_c46f6b5994c84c84986b3fde2a6f86ad
+type: GrpcRequest
+parentId: fld_c8077bd5c7184fb4b08301537238ddab
+modified: 1694586865862
+created: 1694060106819
+url: "{{ _['cops-grpc'] }}"
+name: New SKU
+description: ""
+protoFileId: ""
+protoMethodName: /cosmart.cops.v1.content.ContentService/GetReloadCache
+metadata: []
+body:
+  text: |-
+    {
+      "domain_name": "sku"
+    }
+metaSortKey: -1694060106819
+isPrivate: false

@@ -1,0 +1,40 @@
+_id: req_ca7891c8e523415d8ff78a770fc603cc
+type: Request
+parentId: fld_685ddcabb7504cfe91338e92f172bc53
+modified: 1694594356698
+created: 1694575816039
+url: "{{ _['grpc-gateway-cops'] }}/api/category"
+name: PATCH Edit Category
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"category_name\": \"Sebuah kategori baru buat ngedit\",\r
+
+    \    \"updated_by\":\"teddy.saputra@joybox.co.id\",\r
+
+    \    \"rank\":10,\r
+
+    \    \"slug\":\"sebuah-kategory-baru-buat-ngedit\",\r
+
+    \    \"id\":55\r
+
+    }"
+parameters:
+  - name: ""
+    value: null
+    disabled: true
+headers:
+  - name: accept
+    value: "*/*"
+authentication: {}
+metaSortKey: -1694575816039
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

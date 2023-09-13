@@ -1,0 +1,45 @@
+_id: req_c50f51c1560a40ee9649dbccb11052dd
+type: Request
+parentId: fld_a56c9665b41b4e6fbba9153ce5cbcf1e
+modified: 1694575816045
+created: 1694575816045
+url: "{{cops-api}}/api/sku/v2"
+name: Get SKU Detail V2
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: subcategoryIds
+    value: "38"
+    disabled: true
+  - name: activeOnly
+    value: "true"
+    disabled: true
+  - name: page
+    value: "1"
+    disabled: true
+  - name: pageItemCount
+    value: "2"
+    disabled: true
+  - name: skuIds
+    value: 8635,8637,8638
+    disabled: true
+  - name: skuNumbers
+    value: "50710501"
+    disabled: false
+  - name: dearSkuNumbers
+    value: 1,2
+    disabled: true
+  - name: categoryIds
+    value: 1,2
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1694575816045
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

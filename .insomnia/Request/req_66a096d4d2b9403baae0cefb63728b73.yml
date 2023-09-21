@@ -1,42 +1,41 @@
 _id: req_66a096d4d2b9403baae0cefb63728b73
 type: Request
 parentId: fld_36dc51d2046640c4a8fb920b0f41df13
-modified: 1694060306592
+modified: 1694663810631
 created: 1694060146078
-url: "{{ _['grpc-gateway'] }}/v1/cops/sku"
+url: "{{ _['grpc-gateway'] }}/v1/cops/api/sku"
 name: Edit SKU
 description: ""
 method: PATCH
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-      "id": 147,
-      "sku_number": "12010003",
-      "dear_sku_number": "12010001",
-      "sku_name": "Betadine Solution Antiseptic",
-      "barcode": "8992843100301",
-      "is_active": "N",
-      "moq": 3,
-      "max_order_quantity": 10,
-      "parent_sku": "",
-      "description": "Hello",
-      "is_virtual": false,
-      "is_legal_age": false,
-      "is_tax_exemptable": false,
-      "is_clearance": false,
-      "fresh_type": "NON_FRESH",
-      "brand_id": 326,
-      "uom_id": 2,
-      "packaging_id": 14,
-      "uom_quantity": "30",
-      "subcategory_id": [
-        40
-      ],
-      "sku_images": [
-        "Hello"
-      ],
-      "updated_by": "teddy.saputra@joybox.co.id"
+    	"id": 1,
+    	"sku_number": "10010002",
+    	"dear_sku_number": "10010001",
+    	"sku_name": "A&W Sarsaparillasss",
+    	"barcode": "8992761111687",
+    	"is_active": "N",
+    	"moq": 2,
+    	"max_order_quantity": 999,
+    	"parent_sku": "",
+    	"description": "Paket berisi (2x) A&W Sarsaparilla 250ml",
+    	"is_virtual": false,
+    	"is_legal_age": false,
+    	"is_tax_exemptable": false,
+    	"is_clearance": false,
+    	"brand_id": 74,
+    	"uom_id": 2,
+    	"packaging_id": 1,
+    	"uom_quantity": "250",
+    	"subcategory_id": [
+    		52
+    	],
+    	"sku_images": [
+    		"https://res.cloudinary.com/jybox/image/upload/c_scale,w_400/v1678862282/assets/products/Ery%20Cosmart/AW/10010006_A_W_Sarsaparilla_1_efevqr.jpg"
+    	],
+    	"updated_by": "teddy.saputra@joybox.co.id"
     }
 parameters: []
 headers:

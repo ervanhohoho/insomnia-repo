@@ -1,17 +1,19 @@
 _id: req_17389363d2704cd0a38d059a7ad2c480
 type: Request
 parentId: fld_4edbde9662864837b8f0ca7ff2d9f4ad
-modified: 1694575816036
+modified: 1694598863920
 created: 1694575816036
-url: "{{api}}/api/v1/products/bulk-get-subcategory"
+url: "{{ _['cops-api'] }}/api/v1/products/bulk-get-subcategory"
 name: Bulk GET Subcategory Settings
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/json
   text: "[\r\n    1,15,16,17\r\n]"
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1694575816036
 isPrivate: false

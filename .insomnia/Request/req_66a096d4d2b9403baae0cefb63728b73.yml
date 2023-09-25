@@ -1,7 +1,7 @@
 _id: req_66a096d4d2b9403baae0cefb63728b73
 type: Request
 parentId: fld_36dc51d2046640c4a8fb920b0f41df13
-modified: 1694663810631
+modified: 1695277657403
 created: 1694060146078
 url: "{{ _['grpc-gateway'] }}/v1/cops/api/sku"
 name: Edit SKU
@@ -35,7 +35,8 @@ body:
     	"sku_images": [
     		"https://res.cloudinary.com/jybox/image/upload/c_scale,w_400/v1678862282/assets/products/Ery%20Cosmart/AW/10010006_A_W_Sarsaparilla_1_efevqr.jpg"
     	],
-    	"updated_by": "teddy.saputra@joybox.co.id"
+    	"updated_by": "teddy.saputra@joybox.co.id",
+    	"fresh_type": "FRESH_ONEDAY"
     }
 parameters: []
 headers:

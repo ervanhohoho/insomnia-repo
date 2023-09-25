@@ -1,0 +1,25 @@
+_id: req_9a98ca1ba26b4e9593883ae08caae562
+type: Request
+parentId: fld_442d37ca58fe4770921df200d048d125
+modified: 1695616810755
+created: 1695616266117
+url: "{{ _['fresh-factory'] }}/v1/inventories"
+name: Get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _['fresh-factory-token'] }}"
+metaSortKey: -1695616266117
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

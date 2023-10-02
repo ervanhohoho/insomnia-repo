@@ -1,0 +1,105 @@
+_id: req_b6c8e4cef83c43c9a767823554031728
+type: Request
+parentId: fld_0dc5ecddf06b4798983ed66f1881f6fc
+modified: 1696220208689
+created: 1696220208689
+url: "{{domain}}/v1/fulfillments"
+name: Add Fulfillment + T2T
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  text: "{\r
+
+    \    \"warehouseId\": \"bfc7274f-c3f7-45e7-8f02-08bd4a3c138a\",\r
+
+    \    \"platform\": \"Marketplace\",\r
+
+    \    \"platformInvoiceId\": \"testpayloadsku01\",\r
+
+    \    \"bookingId\": \"testpayloadsku01\",\r
+
+    \    \"customerName\": \"Fresh Factory Bali\",\r
+
+    \    \"customerPhoneNumber\": \"081081081081\",\r
+
+    \    \"customerAddress\": \"KBL\",\r
+
+    \    \"customerLongitude\": \"115.18811100\",\r
+
+    \    \"customerLatitude\": \"-8.68780600\",\r
+
+    \    \"customerPostalCode\": \"00000\",\r
+
+    \    \"recipientName\": \"Livia\",\r
+
+    \    \"recipientPhoneNumber\": \"081081081\",\r
+
+    \    \"recipientAddress\": \"Jl. Gn. Soputan\",\r
+
+    \    \"paymentType\": \"PbD\",\r
+
+    \    \"pod\": \"1\",\r
+
+    \    \"moneyReceived\": \"0\",\r
+
+    \    \"discountValue\": \"0\",\r
+
+    \    \"recipientDistrictCode\": \"undefined\",\r
+
+    \    \"recipientPostalCode\": \"80119\",\r
+
+    \    \"recipientLatitude\": \"115.18811100\",\r
+
+    \    \"recipientLongitude\": \"-8.68780600\",\r
+
+    \    \"pickedBy\": \"freshfactory\",\r
+
+    \    \"packaging\": \"1\",\r
+
+    \    \"logisticCompany\": \"KURIR REKOMENDASI\",\r
+
+    \    \"logisticService\": \"Instant\",\r
+
+    \    \"estimatedPickupTime\": \"2023-09-27 10:37:01\",\r
+
+    \    \"estimatedWeight\": \"1000\",\r
+
+    \    \"estimatedDeliveryFee\": \"null\",\r
+
+    \    \"notes\": null,\r
+
+    \    \"orderType\": \"sales\",\r
+
+    \    \"sla\": \"normal\",\r
+
+    \    \"products\": [\r
+
+    \        {\r
+
+    \            \"sku\": \"AMIDISGELAS\",\r
+
+    \            \"quantity\": \"1\",\r
+
+    \            \"type\": \"product\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1696220208689
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

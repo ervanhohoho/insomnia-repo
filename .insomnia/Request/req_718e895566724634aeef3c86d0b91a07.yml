@@ -1,0 +1,30 @@
+_id: req_718e895566724634aeef3c86d0b91a07
+type: Request
+parentId: fld_86c597cbf69340298174a9c5d8ad323f
+modified: 1696220208683
+created: 1696220208683
+url: "{{domain}}/v1/reservation/nota"
+name: reservation nota
+description: ""
+method: GET
+body:
+  params: []
+  mimeType: application/x-www-form-urlencoded
+parameters:
+  - name: reservationId
+    value: 07db4b67-3d20-4bae-9920-780fb381b407
+    disabled: false
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208683
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

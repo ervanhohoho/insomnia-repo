@@ -1,0 +1,64 @@
+_id: req_9afdae71d1ed45d69c7527d3f9a83872
+type: Request
+parentId: fld_0dc5ecddf06b4798983ed66f1881f6fc
+modified: 1696220208685
+created: 1696220208685
+url: "{{domain}}/v1/orders"
+name: Get all
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: warehouseId
+    value: 575cfcc5-bb48-4f4f-992e-794f3578c872
+    disabled: true
+  - name: status
+    value: unprocess
+    disabled: true
+  - name: courierName
+    value: Bambang
+    disabled: true
+  - name: platform
+    value: Tokoaa
+    disabled: true
+  - name: recipientPhone
+    value: "3121"
+    disabled: true
+  - name: recipientName
+    value: maria
+    disabled: true
+  - name: recipientAddress
+    value: ahmad
+    disabled: true
+  - name: fulfillmentDate
+    value: 2020-09-29
+    disabled: true
+  - name: orderId
+    value: INV2020100600068
+    disabled: true
+  - name: pickedBy
+    value: freshfactory
+    disabled: false
+  - name: startOrderDate
+    value: 2020-09-01
+    disabled: true
+  - name: endOrderDate
+    value: 2020-09-02
+    disabled: true
+  - name: page
+    value: "2"
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208685
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_a255e5a99c5f4f9ea47eda6b86c832b3
+type: Request
+parentId: fld_896823fedc2841668ba7327603b49742
+modified: 1696220208676
+created: 1696220208676
+url: "{{domain}}/v1/order/products"
+name: Get all products order
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: warehouseId
+    value: 1a69d150-eb15-4a5b-a7c9-a200bdea266c
+    disabled: false
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208676
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

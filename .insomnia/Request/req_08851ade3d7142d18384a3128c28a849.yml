@@ -1,0 +1,24 @@
+_id: req_08851ade3d7142d18384a3128c28a849
+type: Request
+parentId: fld_2551c36ae5404b059465f3e970055ff4
+modified: 1696220208693
+created: 1696220208693
+url: "{{domain}}/v1/expenses/daily_summary"
+name: daily expenses summary
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: month
+    value: 2020-07-01
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1696220208693
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_9fa51283d01048cdb407c84f69e19800
+type: Request
+parentId: fld_0dc5ecddf06b4798983ed66f1881f6fc
+modified: 1696220208688
+created: 1696220208688
+url: "{{domain}}/v1/orders/cancel"
+name: Cancel
+description: ""
+method: PATCH
+body:
+  params:
+    - value: d2113be0-926c-4017-a24b-b36268b37be7
+      name: orderId
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

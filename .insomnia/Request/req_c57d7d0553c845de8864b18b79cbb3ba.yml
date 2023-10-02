@@ -1,0 +1,25 @@
+_id: req_c57d7d0553c845de8864b18b79cbb3ba
+type: Request
+parentId: fld_a869e905f5cb4ccfb041893287d53c3e
+modified: 1696220208705
+created: 1696220208705
+url: "{{domain}}/v1/tows/18d56841-cbef-4217-aa01-89b36bb82f7c"
+name: Find Tows
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208705
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

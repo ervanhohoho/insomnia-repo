@@ -1,0 +1,33 @@
+_id: req_953355b6f0104e939dc23c82663c0521
+type: Request
+parentId: fld_be89aed620ef45fdb8dc9781802bc90a
+modified: 1696220208670
+created: 1696220208670
+url: "{{domain}}/v1/login"
+name: Login
+description: ""
+method: POST
+body:
+  params:
+    - value: your@email.com
+      name: email
+      disabled: false
+    - value: yourpassword
+      name: password
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1696220208670
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_db4da6bae9ee4568b9458a1f3171a28b
+type: Request
+parentId: fld_1dfda14a061f44c49473dd59c9d0d3c4
+modified: 1696220208703
+created: 1696220208703
+url: "{{domain}}/v1/reseller/label/T2T-2020111700001"
+name: Label
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208703
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

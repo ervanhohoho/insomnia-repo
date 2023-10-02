@@ -1,0 +1,25 @@
+_id: req_d156a709f3e841a3b03e75fc6fec826f
+type: Request
+parentId: fld_9ec1a7c073d44ac4ab2f71e336d2b23b
+modified: 1696220208707
+created: 1696220208707
+url: "{{domain}}/v1/bundling/activate/acd10227-bd51-4a46-ab63-c304e99f84ba"
+name: Activate Bundling
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208707
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

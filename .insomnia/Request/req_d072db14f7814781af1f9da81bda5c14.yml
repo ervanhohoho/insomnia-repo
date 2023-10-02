@@ -1,0 +1,25 @@
+_id: req_d072db14f7814781af1f9da81bda5c14
+type: Request
+parentId: fld_896823fedc2841668ba7327603b49742
+modified: 1696220208679
+created: 1696220208679
+url: "{{domain}}/v1/all-products/max-stock"
+name: Get Max stock
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208679
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

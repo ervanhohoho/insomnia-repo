@@ -1,0 +1,25 @@
+_id: req_4b5285a166744435a36984283833faaf
+type: Request
+parentId: fld_86c597cbf69340298174a9c5d8ad323f
+modified: 1696220208680
+created: 1696220208680
+url: "{{domainDev}}/v1/warehouses"
+name: Get Warehouses
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208680
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

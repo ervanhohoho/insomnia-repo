@@ -1,0 +1,40 @@
+_id: req_f964a69999754ac1acbe17f6c319da34
+type: Request
+parentId: fld_1dfda14a061f44c49473dd59c9d0d3c4
+modified: 1696220208703
+created: 1696220208703
+url: "{{domain}}/v1/ffproducts"
+name: Add FF Product
+description: ""
+method: POST
+body:
+  params:
+    - value: 1952b922-6cc3-48d1-a210-9610f76c5b7a
+      name: id
+      disabled: false
+    - value: Permen0
+      name: skuNumber
+      disabled: false
+    - value: Permen Strawberry
+      name: name
+      disabled: false
+    - value: "15000"
+      name: price
+      disabled: false
+    - value: permen
+      name: description
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208703
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

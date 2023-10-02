@@ -1,0 +1,25 @@
+_id: req_84c5583051b9416ea079ffeeb1e5d447
+type: Request
+parentId: fld_896823fedc2841668ba7327603b49742
+modified: 1696220208677
+created: 1696220208677
+url: "{{domain}}/v1/storage"
+name: get storage
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208677
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

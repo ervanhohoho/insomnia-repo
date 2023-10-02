@@ -1,0 +1,39 @@
+_id: req_427da767eaf545cab1e9cb8402ec093c
+type: Request
+parentId: fld_896823fedc2841668ba7327603b49742
+modified: 1696220208672
+created: 1696220208672
+url: "{{domainProd}}/v1/lockersize/find"
+name: Get LockerSize
+description: ""
+method: POST
+body:
+  params:
+    - value: "5"
+      name: width
+      disabled: false
+    - value: "12"
+      name: height
+      disabled: false
+    - value: "25"
+      name: length
+      disabled: false
+    - value: Dry
+      name: storage
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208672
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_e304578438124fca96bc64d30bf86713
+type: Request
+parentId: fld_86c597cbf69340298174a9c5d8ad323f
+modified: 1696220208682
+created: 1696220208682
+url: "{{domain}}/v1/reservation/submit"
+name: reservation submit
+description: ""
+method: POST
+body:
+  params:
+    - value: 19087ea9-6088-4ed7-89b7-3aedffec34ac
+      name: reservationId
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208682
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

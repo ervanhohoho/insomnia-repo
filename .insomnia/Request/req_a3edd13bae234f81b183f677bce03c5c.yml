@@ -1,0 +1,23 @@
+_id: req_a3edd13bae234f81b183f677bce03c5c
+type: Request
+parentId: fld_1dfda14a061f44c49473dd59c9d0d3c4
+modified: 1696220208704
+created: 1696220208704
+url: "{{domain}}/v1/resellers/T2T-2020111700001"
+name: Find
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208704
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

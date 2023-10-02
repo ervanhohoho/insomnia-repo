@@ -1,0 +1,25 @@
+_id: req_b57ffe361e994adca65f240fa2d1d075
+type: Request
+parentId: fld_896823fedc2841668ba7327603b49742
+modified: 1696220208677
+created: 1696220208677
+url: "{{domainProd}}/v1/products/b3a687ec-a868-4be0-b677-00f2b7e196fc"
+name: Delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208677
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

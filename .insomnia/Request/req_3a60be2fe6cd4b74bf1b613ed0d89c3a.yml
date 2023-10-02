@@ -1,0 +1,31 @@
+_id: req_3a60be2fe6cd4b74bf1b613ed0d89c3a
+type: Request
+parentId: fld_401f62f9383f4fffb498f0d45cc7349f
+modified: 1696220208701
+created: 1696220208701
+url: "{{domain}}/v1/returns/cancel"
+name: Cancel Return
+description: ""
+method: POST
+body:
+  params:
+    - value: RET2020102200033
+      name: returnId
+      disabled: false
+    - value: Percobaan Tenant
+      name: note
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208701
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

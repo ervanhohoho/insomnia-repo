@@ -1,0 +1,25 @@
+_id: req_0576c96c3ee24d5f926abcdfc154d9d6
+type: Request
+parentId: fld_a869e905f5cb4ccfb041893287d53c3e
+modified: 1696220208705
+created: 1696220208705
+url: "{{domain}}/v1/tows/0324fff9-7480-48f4-997a-bc2ba122441e"
+name: Delete Tows
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208705
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

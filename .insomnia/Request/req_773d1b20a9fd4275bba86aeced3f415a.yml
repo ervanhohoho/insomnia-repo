@@ -1,0 +1,33 @@
+_id: req_773d1b20a9fd4275bba86aeced3f415a
+type: Request
+parentId: fld_86c597cbf69340298174a9c5d8ad323f
+modified: 1696220208681
+created: 1696220208681
+url: "{{domain}}/v1/reservation/available"
+name: Get Available Times
+description: ""
+method: POST
+body:
+  params:
+    - value: 2e3baf2a-94be-47bb-8391-e2abd75cbc38
+      name: warehouseId
+      disabled: false
+    - value: "1"
+      name: isShuttle
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208681
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

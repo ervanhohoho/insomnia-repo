@@ -1,0 +1,595 @@
+_id: req_0fa75a9a0140402a83cbdf5280743547
+type: Request
+parentId: fld_6df7d0a84e5e453db17c9cb057ecf4cf
+modified: 1696220208710
+created: 1696220208710
+url: "{{domain}}/v1/towsproducts/stock"
+name: Stock Opname
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"isi\": \"stock\",\r
+
+    \  \"data\": [\r
+
+    \        {\r
+
+    \      \"itemId\": \"3031000259171\",\r
+
+    \      \"barcode\": \"648436122295\",\r
+
+    \      \"itemName\": \"PORORO JAJANG CUP 65GR\",\r
+
+    \      \"stock\": 12,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"3032000336961\",\r
+
+    \      \"barcode\": \"8997226660649\",\r
+
+    \      \"itemName\": \"KUE PAKET LEBARAN C 750GR\",\r
+
+    \      \"stock\": 0,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"2022000228992\",\r
+
+    \      \"barcode\": \"82315007\",\r
+
+    \      \"itemName\": \"KOLANG KALING COCOPANDAN 500GR\",\r
+
+    \      \"stock\": 5,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"2022000229005\",\r
+
+    \      \"barcode\": \"82315008\",\r
+
+    \      \"itemName\": \"KOLANG KALING MELON 500GR\",\r
+
+    \      \"stock\": 11,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"5052000111953\",\r
+
+    \      \"barcode\": \"00115235\",\r
+
+    \      \"itemName\": \"FRESH OKRA\",\r
+
+    \      \"stock\": 0,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"3032000332031\",\r
+
+    \      \"barcode\": \"8997024181643\",\r
+
+    \      \"itemName\": \"MIE LEK LEK GORENG VEGAN PEDAS KOREA 110GR\",\r
+
+    \      \"stock\": 10,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"3032000332048\",\r
+
+    \      \"barcode\": \"8997024181650\",\r
+
+    \      \"itemName\": \"MIE LEK LEK VEGAN RASA KARI 110GR\",\r
+
+    \      \"stock\": 20,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329060\",\r
+
+    \      \"barcode\": \"8995084900679\",\r
+
+    \      \"itemName\": \"PURE BB CLEANSING WIPES LEMON 60S\",\r
+
+    \      \"stock\": 12,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329077\",\r
+
+    \      \"barcode\": \"8995084900648\",\r
+
+    \      \"itemName\": \"PURE BB CLEANSING WIPES TEA OLIVE 20S\",\r
+
+    \      \"stock\": 6,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329084\",\r
+
+    \      \"barcode\": \"8995084900655\",\r
+
+    \      \"itemName\": \"PURE BB CLEANSING WIPES TEA OLIVE 60S\",\r
+
+    \      \"stock\": 11,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000328988\",\r
+
+    \      \"barcode\": \"8995084900501\",\r
+
+    \      \"itemName\": \"PURE BB HAND&MOUTH ALOEVERA 10S\",\r
+
+    \      \"stock\": 8,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000328995\",\r
+
+    \      \"barcode\": \"8995084900518\",\r
+
+    \      \"itemName\": \"PURE BB HAND&MOUTH ALOEVERA 60S\",\r
+
+    \      \"stock\": 16,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329107\",\r
+
+    \      \"barcode\": \"8995084901041\",\r
+
+    \      \"itemName\": \"PURE BB LAUNDRY LIQ REFIL 450ML\",\r
+
+    \      \"stock\": 5,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329091\",\r
+
+    \      \"barcode\": \"8995084900266\",\r
+
+    \      \"itemName\": \"PURE BB LIQ CLEANSER REFIL 450ML\",\r
+
+    \      \"stock\": 4,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329008\",\r
+
+    \      \"barcode\": \"8995084901386\",\r
+
+    \      \"itemName\": \"PURE BB LIQUID SOAP 80ML\",\r
+
+    \      \"stock\": 6,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329039\",\r
+
+    \      \"barcode\": \"8995084900907\",\r
+
+    \      \"itemName\": \"PURE BB SHAMPO FRESHY 230ML\",\r
+
+    \      \"stock\": 4,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329046\",\r
+
+    \      \"barcode\": \"8995084901263\",\r
+
+    \      \"itemName\": \"PURE BB SHAMPO FRESHY REFIL 450ML\",\r
+
+    \      \"stock\": 6,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329114\",\r
+
+    \      \"barcode\": \"8997205640259\",\r
+
+    \      \"itemName\": \"PURE BB WARMING OIL 60ML\",\r
+
+    \      \"stock\": 6,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329015\",\r
+
+    \      \"barcode\": \"8995084900846\",\r
+
+    \      \"itemName\": \"PURE BB WASH FRESHY 230ML\",\r
+
+    \      \"stock\": 3,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329022\",\r
+
+    \      \"barcode\": \"8995084901249\",\r
+
+    \      \"itemName\": \"PURE BB WASH FRESHY REFIL 450ML\",\r
+
+    \      \"stock\": 6,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329350\",\r
+
+    \      \"barcode\": \"8719497184538\",\r
+
+    \      \"itemName\": \"ASEPSO HANDWASH LEMON FRESH 225ML\",\r
+
+    \      \"stock\": 5,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329602\",\r
+
+    \      \"barcode\": \"4902430401173\",\r
+
+    \      \"itemName\": \"PANTENE SHM ANTI DANDRUFT 70ML\",\r
+
+    \      \"stock\": 13,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4042000329619\",\r
+
+    \      \"barcode\": \"4902430401142\",\r
+
+    \      \"itemName\": \"PANTENE SHM ANTI HAIRFALL 70ML\",\r
+
+    \      \"stock\": 15,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"1011000015061\",\r
+
+    \      \"barcode\": \"001744\",\r
+
+    \      \"itemName\": \"JERUK KINNO (13)\",\r
+
+    \      \"stock\": 15,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"3031000259102\",\r
+
+    \      \"barcode\": \"3046920029582\",\r
+
+    \      \"itemName\": \"LINDT EXCELLENCE DARK 85% 35GR\",\r
+
+    \      \"stock\": 2,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"5052000116729\",\r
+
+    \      \"barcode\": \"004504\",\r
+
+    \      \"itemName\": \"BABY PAKCOI(KG)\",\r
+
+    \      \"stock\": 0,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"1012000016072\",\r
+
+    \      \"barcode\": \"005312\",\r
+
+    \      \"itemName\": \"JAMBU AIR SALJU - B\",\r
+
+    \      \"stock\": 0,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"3031000253803\",\r
+
+    \      \"barcode\": \"9315070852055\",\r
+
+    \      \"itemName\": \"THE PROVICIAL MD FETA CHIVE&GARLIC 250GR\",\r
+
+    \      \"stock\": 0,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"3031000253797\",\r
+
+    \      \"barcode\": \"9315070852048\",\r
+
+    \      \"itemName\": \"THE PROVICIAL MD FETA MEDITERRANEAN 250GR\",\r
+
+    \      \"stock\": 0,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"3032000337111\",\r
+
+    \      \"barcode\": \"8997218380159\",\r
+
+    \      \"itemName\": \"ICHITAN BROWN SUGAR MILK 310ML\",\r
+
+    \      \"stock\": 20,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"1011000019809\",\r
+
+    \      \"barcode\": \"00092575\",\r
+
+    \      \"itemName\": \"STRAWBERRY LOKAL  BUY1 GET1\",\r
+
+    \      \"stock\": -6,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"5052000112264\",\r
+
+    \      \"barcode\": \"00115243\",\r
+
+    \      \"itemName\": \"FRESH DAUN LOBAK\",\r
+
+    \      \"stock\": 3,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"3032000336954\",\r
+
+    \      \"barcode\": \"8997226660632\",\r
+
+    \      \"itemName\": \"KUE PAKET LEBARAN A 600GR\",\r
+
+    \      \"stock\": 0,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"1012000017604\",\r
+
+    \      \"barcode\": \"006006\",\r
+
+    \      \"itemName\": \"PISANG RAJA BULU SUNPRIDE\",\r
+
+    \      \"stock\": 1,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"3031000258235\",\r
+
+    \      \"barcode\": \"7610700008560\",\r
+
+    \      \"itemName\": \"RICOLA LEMON MINT 100GR NEW\",\r
+
+    \      \"stock\": 23,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"1011000014903\",\r
+
+    \      \"barcode\": \"001403\",\r
+
+    \      \"itemName\": \"DELIMA RRT (20) KG\",\r
+
+    \      \"stock\": 0,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"2022000228978\",\r
+
+    \      \"barcode\": \"8997014357409\",\r
+
+    \      \"itemName\": \"CEDEA CHIKUWA MUSHROOM 500GR\",\r
+
+    \      \"stock\": 5,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"2022000228961\",\r
+
+    \      \"barcode\": \"8997014357331\",\r
+
+    \      \"itemName\": \"CEDEA FISH ROLL CORN 500GR\",\r
+
+    \      \"stock\": 3,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"4043000106804\",\r
+
+    \      \"barcode\": \"10544002\",\r
+
+    \      \"itemName\": \"DUS IDUL FITRI PTH (T)\",\r
+
+    \      \"stock\": 0,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \      \"itemId\": \"5052000114015\",\r
+
+    \      \"barcode\": \"31408011\",\r
+
+    \      \"itemName\": \"ASAM KRANJI\",\r
+
+    \      \"stock\": -2,\r
+
+    \      \"locationId\": \"031001\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

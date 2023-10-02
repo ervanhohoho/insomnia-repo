@@ -1,0 +1,25 @@
+_id: req_7e2a372532b1468092f199215b845f26
+type: Request
+parentId: fld_9ec1a7c073d44ac4ab2f71e336d2b23b
+modified: 1696220208707
+created: 1696220208707
+url: "{{domain}}/v1/bundling/8604be59-d952-43d4-b921-908c4d0bae84"
+name: Delete Bundling
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208707
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

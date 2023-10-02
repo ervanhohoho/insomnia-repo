@@ -1,0 +1,33 @@
+_id: req_ad6a18e5f8754e7b80ca72dd9d3e06c1
+type: Request
+parentId: fld_be89aed620ef45fdb8dc9781802bc90a
+modified: 1696220208671
+created: 1696220208671
+url: "{{domain}}/v1/password/forgot"
+name: Forgot password
+description: ""
+method: POST
+body:
+  params:
+    - value: your@email.com
+      name: email
+      disabled: false
+    - value: https://dev.freshfactory.id/forgot-reset
+      name: reseturl
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1696220208671
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,77 @@
+_id: req_e05ee9908a0144ab8dae41e64744a125
+type: Request
+parentId: fld_0dc5ecddf06b4798983ed66f1881f6fc
+modified: 1696220208687
+created: 1696220208687
+url: "{{domain}}/v1/orders/091d3db1-b8ab-4aee-b126-020b0f66e932"
+name: Edit
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: platform
+      disabled: false
+      value: Tokopedia
+    - type: text
+      name: platformInvoiceId
+      disabled: false
+      value: INVXX1/001/001/2020
+    - type: text
+      name: customerName
+      disabled: false
+      value: John Doe
+    - type: text
+      name: customerPhoneNumber
+      disabled: false
+      value: "02167582721123"
+    - type: text
+      name: recipientAddress
+      disabled: false
+      value: Jl papanggo
+    - type: text
+      name: recipientName
+      disabled: false
+      value: Maria Saravopa
+    - type: text
+      name: recipientPhoneNumber
+      disabled: false
+      value: "321456"
+    - type: text
+      name: logisticCompany
+      disabled: false
+      value: Gojek Same Day
+    - type: text
+      name: courierName
+      disabled: false
+      value: Bambang
+    - type: text
+      name: courierPhone
+      disabled: false
+      value: "093456111334"
+    - type: text
+      name: estimatedPickupTime
+      disabled: false
+      value: 2020-07-01 10:00:23
+    - type: file
+      name: labelScreenshot
+      disabled: false
+      fileName: /Users/jakartauser/Documents/goku.jpg
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+  - name: Accept-Language
+    value: id
+authentication: {}
+metaSortKey: -1696220208687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

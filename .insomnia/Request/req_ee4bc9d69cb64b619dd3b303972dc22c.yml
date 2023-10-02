@@ -1,0 +1,111 @@
+_id: req_ee4bc9d69cb64b619dd3b303972dc22c
+type: Request
+parentId: fld_896823fedc2841668ba7327603b49742
+modified: 1696220208675
+created: 1696220208675
+url: "{{domainProd}}/v1/products"
+name: Add Copy
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: buyPrice
+      disabled: false
+      value: " 0"
+    - type: text
+      name: skuNumber
+      disabled: false
+      value: " SWSBY-06-0071"
+    - type: text
+      name: name
+      disabled: false
+      value: " Callebaut Milk 500gr"
+    - type: text
+      name: storage
+      disabled: false
+      value: " Chilled"
+    - type: text
+      name: category
+      disabled: false
+      value: " f115bed6-e47c-11eb-bf08-064f378cb564"
+    - type: text
+      name: width
+      disabled: false
+      value: " 11"
+    - type: text
+      name: height
+      disabled: false
+      value: " 6"
+    - type: text
+      name: length
+      disabled: false
+      value: " 18"
+    - type: text
+      name: weight
+      disabled: false
+      value: " 500"
+    - type: text
+      name: supliedPackaging
+      disabled: false
+      value: " Plastic Bag"
+    - type: text
+      name: shelfLife
+      disabled: false
+      value: " 360"
+    - type: text
+      name: description
+      disabled: false
+      value: " -"
+    - type: text
+      name: lockerSizeId
+      disabled: false
+      value: " 48528fb8-eb47-4dee-bf46-ebd7b3e5e581"
+    - type: text
+      name: price
+      disabled: false
+      value: " 98000"
+    - type: text
+      name: priceReseller
+      disabled: false
+      value: " "
+    - type: text
+      name: isResellable
+      disabled: false
+      value: " 0"
+    - type: text
+      name: position
+      disabled: false
+      value: " horizontal"
+    - type: text
+      name: FEFO
+      disabled: false
+      value: " 0"
+    - type: text
+      name: minimalFulfillment
+      disabled: false
+      value: " 0"
+    - type: file
+      name: image
+      disabled: false
+      fileName: /C:/Users/shiro/Pictures/0trNzSRQyPJx51DHfZYToYJAwteDRgrVTIM50m5u.png
+    - type: file
+      name: image_selling
+      disabled: false
+      fileName: /C:/Users/shiro/Pictures/0trNzSRQyPJx51DHfZYToYJAwteDRgrVTIM50m5u.png
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1696220208675
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

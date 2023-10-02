@@ -1,0 +1,25 @@
+_id: req_1ba0680d3f354ef9966f27f7ae0118c8
+type: Request
+parentId: fld_9ec1a7c073d44ac4ab2f71e336d2b23b
+modified: 1696220208708
+created: 1696220208708
+url: "{{domain}}/v1/bundling/deactivate/90e679f8-7f50-400a-9484-209d184d3c2c"
+name: Deactivate Bundling
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208708
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

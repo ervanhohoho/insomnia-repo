@@ -1,0 +1,21 @@
+_id: req_de72fe4180c44fc4971b2f074d209b4c
+type: Request
+parentId: fld_9182ce4edc1449358ec292fe2816a5d5
+modified: 1696220208697
+created: 1696220208697
+url: "{{domain}}/v1/exports/generate_token"
+name: Generate Token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1696220208697
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

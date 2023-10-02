@@ -1,0 +1,40 @@
+_id: req_42e35f1162c0489da1411e884ba702d2
+type: Request
+parentId: fld_896823fedc2841668ba7327603b49742
+modified: 1696220208673
+created: 1696220208673
+url: "{{domainProd}}/v1/products"
+name: Get all
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: searchBy
+    value: zona
+    disabled: true
+  - name: keyword
+    value: Dingin
+    disabled: true
+  - name: pagina
+    value: "false"
+    disabled: true
+  - name: status
+    value: all
+    disabled: false
+  - name: isCreator
+    value: yes
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208673
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

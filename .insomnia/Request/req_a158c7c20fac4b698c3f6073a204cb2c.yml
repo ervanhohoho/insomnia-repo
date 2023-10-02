@@ -1,0 +1,23 @@
+_id: req_a158c7c20fac4b698c3f6073a204cb2c
+type: Request
+parentId: fld_93fe0168ba334be3826e207c256f6f69
+modified: 1696220208695
+created: 1696220208695
+url: "{{domain}}/v1/inventories/0068cd48-ac5c-4e39-bbf3-af1dc1f198d0"
+name: Find Inventory
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208695
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

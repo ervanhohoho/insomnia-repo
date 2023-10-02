@@ -1,0 +1,33 @@
+_id: req_517b701745354fe5be039d8dafa17b20
+type: Request
+parentId: fld_86c597cbf69340298174a9c5d8ad323f
+modified: 1696220208684
+created: 1696220208684
+url: "{{domainProd}}/v1/reservations/cancel"
+name: Cancel Reservation
+description: ""
+method: POST
+body:
+  params:
+    - value: FNC-SS-SDE20210914-47047
+      name: reservationId
+      disabled: false
+    - value: Dibatalkan karena salah input
+      name: cancelReason
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208684
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

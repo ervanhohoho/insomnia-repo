@@ -1,0 +1,55 @@
+_id: req_cb2d7a8c810647139c4912381fec9507
+type: Request
+parentId: fld_9ec1a7c073d44ac4ab2f71e336d2b23b
+modified: 1696220208706
+created: 1696220208706
+url: "{{domain}}/v1/bundling/acd10227-bd51-4a46-ab63-c304e99f84ba"
+name: Edit Bundling
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: skuNumber
+      disabled: false
+      value: TESTT0002
+    - type: text
+      name: name
+      disabled: false
+      value: Percobaan Edit
+    - type: text
+      name: price
+      disabled: false
+      value: "55000"
+    - type: text
+      name: priceReseller
+      disabled: false
+      value: "50000"
+    - type: text
+      name: isResellable
+      disabled: false
+      value: "1"
+    - type: text
+      name: description
+      disabled: false
+      value: Testing Edit Bro
+    - type: file
+      name: image_selling
+      disabled: true
+      fileName: /G:/Wallpaper/347543.jpg
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208706
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

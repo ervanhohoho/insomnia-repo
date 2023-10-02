@@ -1,84 +1,70 @@
 _id: req_dd43efe1c6da4565bb8ecc3730293067
 type: Request
 parentId: fld_fa04a6808a0b49fbb7198c8cb6ae3ace
-modified: 1695616778854
+modified: 1696219138052
 created: 1695616575473
-url: "{{ _['fresh-factory'] }}/v1/orders"
+url: "{{ _['fresh-factory'].url }}/v1/orders"
 name: Create
 description: ""
 method: POST
 body:
-  mimeType: application/x-www-form-urlencoded
-  params:
-    - name: warehouseId
-      value: 57bac3e2-92e6-4289-aac5-b8a78acd588f
-    - name: pickedBy
-      value: Tenant
-    - name: platform
-      value: Cosmart
-    - name: platformInvoiceId
-      value: INV-001
-    - name: packaging
-      value: "1"
-    - name: customerName
-      value: Saya
-    - name: customerAddress
-      value: Jl. Ini
-    - name: customerSubdistrict
-      value: Parit Tokaya
-    - name: customerDistrict
-      value: Pontianak Selatan
-    - name: customerCity
-      value: Kota Pontianak
-    - name: customerState
-      value: Kalimantan Barat
-    - name: customerPostalCode
-      value: "78121"
-    - name: customerPhoneNumber
-      value: "08115788888"
-    - name: recipientName
-      value: Saya
-    - name: recipientAddress
-      value: Jl. Ini
-    - name: recipientSubdistrict
-      value: Parit Tokaya
-    - name: recipientDistrict
-      value: Pontianak Selatan
-    - name: recipientCity
-      value: Kota Pontianak
-    - name: recipientState
-      value: Kalimantan Barat
-    - name: recipientPostalCode
-      value: "78121"
-    - name: recipientPhoneNumber
-      value: "08115788888"
-    - name: logisticCompany
-      value: Gojep
-    - name: courierName
-      value: Kurir
-    - name: courierPhone
-      value: "08115682145"
-    - name: estimatedPickupTime
-      value: 2021-05-28 01:00
-    - name: notes
-      value: Segera
-    - name: products[0][type]
-      value: utama
-    - name: products[0][id]
-      value: 7e35453b-84df-46f3-bf78-1dbb91031531
-    - name: products[0][quantity]
-      value: "1"
+  mimeType: application/json
+  text: |-
+    {
+    	"warehouseId": "{{ _['fresh-factory'].warehouseId }}",
+    	"platform": "Marketplace",
+    	"platformInvoiceId": "testpayloadsku01",
+    	"bookingId": "testpayloadsku01",
+    	"customerName": "Fresh Factory Bali",
+    	"customerPhoneNumber": "081081081081",
+    	"customerAddress": "KBL",
+    	"customerLongitude": "115.18811100",
+    	"customerLatitude": "-8.68780600",
+    	"customerPostalCode": "00000",
+    	"recipientName": "Livia",
+    	"recipientPhoneNumber": "081081081",
+    	"recipientAddress": "Jl. Gn. Soputan",
+    	"paymentType": "PbD",
+    	"pod": "1",
+    	"moneyReceived": "0",
+    	"discountValue": "0",
+    	"recipientDistrictCode": "undefined",
+    	"recipientPostalCode": "80119",
+    	"recipientLatitude": "115.18811100",
+    	"recipientLongitude": "-8.68780600",
+    	"pickedBy": "freshfactory",
+    	"packaging": "1",
+    	"logisticCompany": "KURIR REKOMENDASI",
+    	"logisticService": "Instant",
+    	"estimatedPickupTime": "2023-09-27 10:37:01",
+    	"estimatedWeight": "1000",
+    	"estimatedDeliveryFee": "null",
+    	"notes": "",
+    	"orderType": "sales",
+    	"sla": "normal",
+    	"products": [
+    		{
+                "sku" : "TestSKU",
+                "quantity": "1",
+                "type": "product",
+                "price": 85000,
+                "iku": [],
+                "bku": [],
+                "attachment": null,
+                "itemType": "fifo"
+            }
+    	]
+    }
 parameters: []
 headers:
+  - name: Content-Type
+    value: application/json
   - name: Accept
     value: application/json
     id: pair_3f33254836134950bc382e154f3a8dc3
-  - name: Content-Type
-    value: application/x-www-form-urlencoded
-    id: pair_a3b0147045464ba38352539bb642242c
 authentication:
   type: bearer
-  token: "{{ _['fresh-factory-token'] }}"
+  token: "{{ _['fresh-factory'].token }}"
 metaSortKey: -1695614792969
 isPrivate: false
 settingStoreCookies: true

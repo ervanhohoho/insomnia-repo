@@ -1,7 +1,7 @@
 _id: req_dd43efe1c6da4565bb8ecc3730293067
 type: Request
 parentId: fld_fa04a6808a0b49fbb7198c8cb6ae3ace
-modified: 1696219138052
+modified: 1696219662012
 created: 1695616575473
 url: "{{ _['fresh-factory'].url }}/v1/orders"
 name: Create
@@ -16,43 +16,42 @@ body:
     	"platformInvoiceId": "testpayloadsku01",
     	"bookingId": "testpayloadsku01",
     	"customerName": "Fresh Factory Bali",
+    	"customerState": "Bali",
+    	"customerCity": "Denpasar",
+    	"customerDistrict": "Denpasar Selatan",
+    	"customerSubdistrict": "SANUR",
     	"customerPhoneNumber": "081081081081",
     	"customerAddress": "KBL",
     	"customerLongitude": "115.18811100",
     	"customerLatitude": "-8.68780600",
-    	"customerPostalCode": "00000",
+    	"customerPostalCode": "80228",
     	"recipientName": "Livia",
     	"recipientPhoneNumber": "081081081",
     	"recipientAddress": "Jl. Gn. Soputan",
     	"paymentType": "PbD",
-    	"pod": "1",
+    	"pod": "0",
     	"moneyReceived": "0",
     	"discountValue": "0",
-    	"recipientDistrictCode": "undefined",
-    	"recipientPostalCode": "80119",
     	"recipientLatitude": "115.18811100",
     	"recipientLongitude": "-8.68780600",
     	"pickedBy": "freshfactory",
     	"packaging": "1",
-    	"logisticCompany": "KURIR REKOMENDASI",
-    	"logisticService": "Instant",
-    	"estimatedPickupTime": "2023-09-27 10:37:01",
+    	"logisticCompany": "Ambil Sendiri",
+    	"logisticService": "Ambil Sendiri",
+    	"estimatedPickupTime": "2023-10-2 12:37:01",
     	"estimatedWeight": "1000",
     	"estimatedDeliveryFee": "null",
     	"notes": "",
     	"orderType": "sales",
     	"sla": "normal",
+    	"vehicle": "mobil",
+    	"area": "dry",
     	"products": [
     		{
                 "sku" : "TestSKU",
                 "quantity": "1",
-                "type": "product",
-                "price": 85000,
-                "iku": [],
-                "bku": [],
-                "attachment": null,
-                "itemType": "fifo"
-            }
+                "type": "product"
+        }
     	]
     }
 parameters: []

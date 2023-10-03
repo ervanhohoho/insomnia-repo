@@ -1,0 +1,40 @@
+_id: req_83bc8c1c1b334ed4ac05ed4ddbe62339
+type: Request
+parentId: fld_45cfccd1a7cd42f9a5c8f142f4773dee
+modified: 1694513331478
+created: 1694513331478
+url: "{{cops-api}}/api/category"
+name: PATCH Edit Category
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"category_name\": \"Sebuah kategori baru buat ngedit\",\r
+
+    \    \"updated_by\":\"teddy.saputra@joybox.co.id\",\r
+
+    \    \"rank\":10,\r
+
+    \    \"slug\":\"sebuah-kategory-baru-buat-ngedit\",\r
+
+    \    \"id\":55\r
+
+    }"
+parameters:
+  - name: ""
+    value: null
+    disabled: true
+headers:
+  - name: accept
+    value: "*/*"
+authentication: {}
+metaSortKey: -1694513331478
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_f14a913513104360bab2b5b9ffff05d0
+type: Request
+parentId: fld_665afa3cd13a45789e009fb6a5c87f6f
+modified: 1694513331482
+created: 1694513331482
+url: "{{cops-api}}/api/sku/upload"
+name: Bulk Upload CSV
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: file
+      disabled: true
+      fileName: /C:/Users/TheXe/Downloads/Sample Bulk Upload CSV REAL - Sheet1 (1).csv
+    - type: text
+      name: createdBy
+      disabled: true
+      value: teddy.saputra@joybox.co.id
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331482
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_d9bba1e158564165b31c26c44015c6f9
+type: Request
+parentId: fld_b53d017d81094b479a2d34b7c6d52f5c
+modified: 1694513331474
+created: 1694513331474
+url: "{{api}}/api/v1/products/settings"
+name: GET Bulk via COPS
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: productIds
+    value: "1"
+    disabled: false
+  - name: productIds
+    value: "2"
+    disabled: false
+  - name: productIds
+    value: "3"
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1694513331474
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

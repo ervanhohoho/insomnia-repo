@@ -1,0 +1,27 @@
+_id: req_3887cc4497834307a095e60ca2ac96cf
+type: Request
+parentId: fld_665afa3cd13a45789e009fb6a5c87f6f
+modified: 1694513331481
+created: 1694513331481
+url: "{{cops-api}}/api/sku/mapping"
+name: Get SKU Mapping
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: searchBy
+    value: dear
+    disabled: false
+  - name: skuNumber
+    value: 12510201,12510301
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1694513331481
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

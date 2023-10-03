@@ -1,0 +1,31 @@
+_id: req_daacdf55f6a7497f84ad984b884005ac
+type: Request
+parentId: fld_665afa3cd13a45789e009fb6a5c87f6f
+modified: 1694513331480
+created: 1694513331480
+url: http://localhost:6969/api/sku
+name: Edit SKU
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: "{\r
+
+    \  \"id\": 1,\r
+
+    \  \"fresh_type\": \"\",\r
+
+    \  \"updated_by\": \"teddy.saputra@joybox.co.id\"\r
+
+    }"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331480
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

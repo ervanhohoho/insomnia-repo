@@ -1,0 +1,31 @@
+_id: req_6265d695ed7349f7afe76ac00c7869f8
+type: Request
+parentId: fld_b53d017d81094b479a2d34b7c6d52f5c
+modified: 1694513331476
+created: 1694513331476
+url: "{{api}}/api/v1/products/subcategories/settings"
+name: POST Subcategory Setting
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \  \"subcategoryId\": \"1\",\r
+
+    \  \"slug\": \"test\",\r
+
+    \  \"rank\": 123456789\r
+
+    }"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331476
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

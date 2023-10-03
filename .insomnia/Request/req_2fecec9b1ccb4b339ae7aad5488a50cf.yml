@@ -1,0 +1,33 @@
+_id: req_2fecec9b1ccb4b339ae7aad5488a50cf
+type: Request
+parentId: fld_665afa3cd13a45789e009fb6a5c87f6f
+modified: 1694513331481
+created: 1694513331481
+url: "{{cops-api}}/api/sku/freebies"
+name: Get Freebies
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: activeOnly
+    value: "true"
+    disabled: true
+  - name: page
+    value: "1"
+    disabled: false
+  - name: subcategoryIds
+    value: "10"
+    disabled: false
+  - name: pageItemCount
+    value: "10"
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1694513331481
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

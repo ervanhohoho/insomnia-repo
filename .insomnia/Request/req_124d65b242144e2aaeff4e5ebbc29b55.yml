@@ -1,9 +1,9 @@
 _id: req_124d65b242144e2aaeff4e5ebbc29b55
 type: Request
 parentId: fld_6cdd399d9692442f8e571aab5f5492ce
-modified: 1693885862498
+modified: 1694759043808
 created: 1693885784109
-url: "{{ _['grpc-gateway'] }}/v1/cops/upload/bulk"
+url: "{{ _['grpc-gateway'] }}/v1/cops/api/sku/upload"
 name: Upload file
 description: ""
 method: POST
@@ -15,7 +15,12 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /home/ervan/Downloads/sku2023-09-Mo_15-31_cut.csv
+      fileName: /home/ervan/Downloads/Bulk Upload CSV Retool - [Download]
+        Template  (8).csv
+    - id: pair_8ccc2dc88db343bdb888091523f3b851
+      name: createdBy
+      value: teddy.saputra@joybox.co.id
+      description: ""
 parameters: []
 headers:
   - name: Content-Type

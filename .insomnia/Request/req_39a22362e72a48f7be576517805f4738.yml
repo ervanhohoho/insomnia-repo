@@ -1,0 +1,21 @@
+_id: req_39a22362e72a48f7be576517805f4738
+type: Request
+parentId: fld_b53d017d81094b479a2d34b7c6d52f5c
+modified: 1694513331476
+created: 1694513331476
+url: "{{api}}/api/v1/products/subcategories/:subcategoryId/settings"
+name: GET Subcategory Setting
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331476
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

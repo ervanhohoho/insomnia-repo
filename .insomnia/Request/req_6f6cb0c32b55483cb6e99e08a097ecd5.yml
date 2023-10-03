@@ -1,0 +1,40 @@
+_id: req_6f6cb0c32b55483cb6e99e08a097ecd5
+type: Request
+parentId: fld_45cfccd1a7cd42f9a5c8f142f4773dee
+modified: 1694513331479
+created: 1694513331479
+url: "{{cops-api}}/api/category/upload"
+name: Bulk Upload Category and Subcategory
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: file
+      disabled: true
+      fileName: /C:/Users/TheXe/Downloads/[DIRTY] Sample Bulk Upload Category CSV -
+        Sheet1.csv
+    - type: text
+      name: createdBy
+      disabled: true
+      value: teddy.saputra@joybox.co.id
+    - type: text
+      name: mode
+      disabled: true
+      value: create
+    - type: text
+      name: type
+      disabled: true
+      value: category
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331479
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

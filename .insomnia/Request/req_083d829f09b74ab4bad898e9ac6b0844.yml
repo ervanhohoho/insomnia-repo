@@ -1,0 +1,37 @@
+_id: req_083d829f09b74ab4bad898e9ac6b0844
+type: Request
+parentId: fld_ac88d09e083f47afbddea78fa26b3d4e
+modified: 1694513331477
+created: 1694513331477
+url: "{{cops-api}}/api/v1/pricing/keyword"
+name: Upsert Keyword
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"id\":\"1\",\r
+
+    \    \"keyword\":\"dadada\",\r
+
+    \    \"positive_keyword\":\"dididi\",\r
+
+    \    \"negative_keyword\":\"dududu\",\r
+
+    \    \"source\":\"tokopedia\",\r
+
+    \    \"updatedBy\":\"teddy.saputra@joybox.co.id\"\r
+
+    }"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331477
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

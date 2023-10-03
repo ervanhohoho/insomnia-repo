@@ -1,20 +1,22 @@
 _id: env_5b83709e5ceb46dda5c6053a7acdfed4
 type: Environment
 parentId: env_390223c592083e2a2ac1d294b3a9ddaa05a6eada
-modified: 1693906165931
+modified: 1696318697273
 created: 1693906125779
 name: STG
 data:
   hermes-grpc: localhost:2010
-  grpc-gateway: localhost:8081
-  cops-grpc: localhost:6970
+  grpc-gateway: https://janus.staging.cosmart.id
+  cops-grpc: grpcs://cops.staging.cosmart.id:6970
   opor-api: https://opor-api.staging.cosmart.id
+  fresh-factory-api: https://api-staging.freshfactory.id
 dataPropertyOrder:
   "&":
     - hermes-grpc
     - grpc-gateway
     - cops-grpc
     - opor-api
+    - fresh-factory-api
 color: null
 isPrivate: false
 metaSortKey: 1692871221531

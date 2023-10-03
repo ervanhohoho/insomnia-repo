@@ -1,0 +1,68 @@
+_id: req_3eadb067d8094aacace07b1cda791662
+type: Request
+parentId: fld_665afa3cd13a45789e009fb6a5c87f6f
+modified: 1694513331480
+created: 1694513331480
+url: "{{cops-api}}/api/sku"
+name: POST New SKU
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \  \"sku_number\": \"1029384756\",\r
+
+    \  \"sku_name\": \"Kucing\",\r
+
+    \  \"dear_sku_number\": \"1029384756\",\r
+
+    \  \"barcode\": \"12345\",\r
+
+    \  \"moq\": 1,\r
+
+    \  \"max_order_quantity\": 999,\r
+
+    \  \"description\": \"Sebuah kocheng\",\r
+
+    \  \"is_legal_age\": false,\r
+
+    \  \"is_tax_exemptable\": true,\r
+
+    \  \"is_clearance\": true,\r
+
+    \  \"brand_id\": 1,\r
+
+    \  \"uom_id\": 1,\r
+
+    \  \"packaging_id\": 1,\r
+
+    \  \"uom_quantity\": 1,\r
+
+    \  \"subcategory_id\": [\r
+
+    \    1\r
+
+    \  ],\r
+
+    \  \"sku_images\": [\r
+
+    \    \"https://pbs.twimg.com/profile_images/625633822235693056/lNGUneLX\
+    _400x400.jpg\"\r
+
+    \  ],\r
+
+    \  \"created_by\": \"teddy.saputra@joybox.co.id\"\r
+
+    }"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331480
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,74 @@
+_id: req_1a2e00f4ed9e48f3af4b67b8c346d499
+type: Request
+parentId: fld_df08621a7c974fc3aa89d7e06f2cc263
+modified: 1695972945514
+created: 1695972504287
+url: "{{ _['fresh-factory-api'] }}/v1/inventories"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"warehouseId": "bfc7274f-c3f7-45e7-8f02-08bd4a3c138a",
+    	"platform": "Marketplace",
+    	"platformInvoiceId": "testpayloadsku01",
+    	"bookingId": "testpayloadsku01",
+    	"customerName": "Fresh Factory Bali",
+    	"customerPhoneNumber": "081081081081",
+    	"customerAddress": "KBL",
+    	"customerLongitude": "115.18811100",
+    	"customerLatitude": "-8.68780600",
+    	"customerPostalCode": "00000",
+    	"recipientName": "Livia",
+    	"recipientPhoneNumber": "081081081",
+    	"recipientAddress": "Jl. Gn. Soputan",
+    	"paymentType": "PbD",
+    	"pod": "1",
+    	"moneyReceived": "0",
+    	"discountValue": "0",
+    	"recipientDistrictCode": "undefined",
+    	"recipientPostalCode": "80119",
+    	"recipientLatitude": "115.18811100",
+    	"recipientLongitude": "-8.68780600",
+    	"pickedBy": "freshfactory",
+    	"packaging": "1",
+    	"logisticCompany": "KURIR REKOMENDASI",
+    	"logisticService": "Instant",
+    	"estimatedPickupTime": "2023-09-27 10:37:01",
+    	"estimatedWeight": "1000",
+    	"estimatedDeliveryFee": "null",
+    	"notes": "",
+    	"orderType": "sales",
+    	"sla": "normal",
+    	"products": [
+    		{
+    			"sku": "AMIDISGELAS",
+    			"quantity": "1",
+    			"type": "product",
+    			"price": 85000,
+    			"iku": [],
+    			"bku": [],
+    			"attachment": null,
+    			"itemType": "fifo"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _['fresh-factory-api-key'] }}"
+metaSortKey: -1695972504287
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

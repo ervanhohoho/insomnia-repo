@@ -1,0 +1,21 @@
+_id: req_1225287d13ca4bccac4899c4ba0855db
+type: Request
+parentId: fld_b53d017d81094b479a2d34b7c6d52f5c
+modified: 1694513331475
+created: 1694513331475
+url: "{{api}}/api/v1/products/categories/:categoryId/settings"
+name: GET Category Setting
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331475
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

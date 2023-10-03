@@ -1,0 +1,26 @@
+_id: req_ac2f961dd2ea47399aa7372b44881eb6
+type: Request
+parentId: fld_45cfccd1a7cd42f9a5c8f142f4773dee
+modified: 1694513667977
+created: 1694513331478
+url: "{{ _['grpc-gateway'] }}/v1/cops/api/category"
+name: GET Category
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: ""
+    value: null
+    disabled: true
+headers:
+  - name: accept
+    value: "*/*"
+authentication: {}
+metaSortKey: -1694513331478
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

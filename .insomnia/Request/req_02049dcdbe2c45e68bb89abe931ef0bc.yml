@@ -1,0 +1,23 @@
+_id: req_02049dcdbe2c45e68bb89abe931ef0bc
+type: Request
+parentId: fld_9ffd1515c3f448e1bac325da68bef920
+modified: 1694672216060
+created: 1694672159058
+url: "{{ _['opor-api'] }}/api/v1/logistic/batch/push"
+name: New Request
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1694672159058
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

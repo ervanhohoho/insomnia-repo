@@ -1,0 +1,33 @@
+_id: req_a7c0184f9e284333b4d937d61ba12e04
+type: Request
+parentId: fld_b53d017d81094b479a2d34b7c6d52f5c
+modified: 1694513331475
+created: 1694513331475
+url: "{{api}}/api/v1/products/categories/settings"
+name: PUT Edit Category Setting
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: "{\r
+
+    \  \"categoryId\": \"9\",\r
+
+    \  \"slug\": \"pets\",\r
+
+    \  \"rank\": 1,\r
+
+    \  \"comingSoon\": false\r
+
+    }"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331475
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

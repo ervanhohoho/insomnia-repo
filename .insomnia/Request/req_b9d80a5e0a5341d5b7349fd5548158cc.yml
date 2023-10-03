@@ -1,0 +1,23 @@
+_id: req_b9d80a5e0a5341d5b7349fd5548158cc
+type: Request
+parentId: fld_6cdd399d9692442f8e571aab5f5492ce
+modified: 1696318756617
+created: 1696318723731
+url: "{{ _['grpc-gateway'] }}/v1/cops/api/category"
+name: Get Categories
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1696318723731
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

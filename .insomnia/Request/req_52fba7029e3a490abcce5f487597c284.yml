@@ -1,0 +1,42 @@
+_id: req_52fba7029e3a490abcce5f487597c284
+type: Request
+parentId: fld_249d095bd4b147f69ba7b02b8d86e8aa
+modified: 1695099017616
+created: 1695098808989
+url: "{{ _['grpc-gateway'] }}/v1/demand-platform/api/v1/products/settings/bulk"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    		"id": 1,
+    		"sku": "10010002",
+    		"rank": 1,
+    		"ribbonSetting": {
+    			"lable": "Testi",
+    			"textColor": "#181716",
+    			"backgroundColor": "#F1B545"
+    		},
+    		"searchTags": [
+    			"asdf"
+    		]
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1695098808989
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

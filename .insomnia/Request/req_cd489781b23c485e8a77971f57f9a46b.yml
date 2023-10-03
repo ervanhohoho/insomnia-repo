@@ -1,0 +1,23 @@
+_id: req_cd489781b23c485e8a77971f57f9a46b
+type: Request
+parentId: fld_6cdd399d9692442f8e571aab5f5492ce
+modified: 1696306667356
+created: 1696306540235
+url: "{{ _['grpc-gateway'] }}/v1/cops/api/sku?skuNumbers=GL914101118101"
+name: Get SKU Detail
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1696306540235
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

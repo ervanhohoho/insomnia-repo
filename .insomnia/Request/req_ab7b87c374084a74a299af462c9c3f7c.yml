@@ -1,0 +1,37 @@
+_id: req_ab7b87c374084a74a299af462c9c3f7c
+type: Request
+parentId: fld_ac88d09e083f47afbddea78fa26b3d4e
+modified: 1694513331477
+created: 1694513331477
+url: "{{cops-api}}/api/v1/pricing/url"
+name: Upsert URL
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"id\":\"1\",\r
+
+    \    \"url\":\"https://www.tokpedz.com\",\r
+
+    \    \"variant\":\"\",\r
+
+    \    \"quantity\":100,\r
+
+    \    \"source\":\"tokopedia\",\r
+
+    \    \"updatedBy\":\"teddy.saputra@joybox.co.id\"\r
+
+    }"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331477
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,865 @@
+_id: req_5c2eb0506a0e485e89182db87546afe2
+type: Request
+parentId: fld_b53d017d81094b479a2d34b7c6d52f5c
+modified: 1694513331474
+created: 1694513331474
+url: "{{api}}/api/v1/products/settings/bulk"
+name: POST Bulk Upsert Product Setting
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"id\": 9270,\r
+
+    \        \"sku\": \"FF10001\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9271,\r
+
+    \        \"sku\": \"FF10101\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9272,\r
+
+    \        \"sku\": \"FF10201\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9273,\r
+
+    \        \"sku\": \"FF10301\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9274,\r
+
+    \        \"sku\": \"FF10401\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9275,\r
+
+    \        \"sku\": \"FF10501\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9276,\r
+
+    \        \"sku\": \"FF10601\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9277,\r
+
+    \        \"sku\": \"FF10701\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9278,\r
+
+    \        \"sku\": \"FF10801\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9279,\r
+
+    \        \"sku\": \"FF10901\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9280,\r
+
+    \        \"sku\": \"FF11001\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9281,\r
+
+    \        \"sku\": \"FF11101\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9282,\r
+
+    \        \"sku\": \"FF11201\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9283,\r
+
+    \        \"sku\": \"FF11301\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9284,\r
+
+    \        \"sku\": \"FF11401\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9285,\r
+
+    \        \"sku\": \"FF11501\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9286,\r
+
+    \        \"sku\": \"FF11601\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9287,\r
+
+    \        \"sku\": \"FF11701\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9288,\r
+
+    \        \"sku\": \"FF11801\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9289,\r
+
+    \        \"sku\": \"FF11901\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9290,\r
+
+    \        \"sku\": \"FF12001\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9291,\r
+
+    \        \"sku\": \"FF12101\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9292,\r
+
+    \        \"sku\": \"FF12201\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9293,\r
+
+    \        \"sku\": \"FF12301\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9294,\r
+
+    \        \"sku\": \"FF12401\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9295,\r
+
+    \        \"sku\": \"FF12501\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9296,\r
+
+    \        \"sku\": \"FF12601\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9297,\r
+
+    \        \"sku\": \"FF12701\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9298,\r
+
+    \        \"sku\": \"FF12801\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9299,\r
+
+    \        \"sku\": \"FF12901\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9300,\r
+
+    \        \"sku\": \"FF13001\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9301,\r
+
+    \        \"sku\": \"FF13101\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9302,\r
+
+    \        \"sku\": \"FF13201\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9303,\r
+
+    \        \"sku\": \"FF13301\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9304,\r
+
+    \        \"sku\": \"FF13401\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9305,\r
+
+    \        \"sku\": \"FF13501\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9306,\r
+
+    \        \"sku\": \"FF13601\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9307,\r
+
+    \        \"sku\": \"FF13701\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9308,\r
+
+    \        \"sku\": \"FF13801\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9309,\r
+
+    \        \"sku\": \"FF13901\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9310,\r
+
+    \        \"sku\": \"FF14001\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"id\": 9311,\r
+
+    \        \"sku\": \"FF14101\",\r
+
+    \        \"rank\": 10000000,\r
+
+    \        \"ribbonSetting\": {\r
+
+    \            \"lable\": null,\r
+
+    \            \"textColor\": null,\r
+
+    \            \"backgroundColor\": null\r
+
+    \        }\r
+
+    \    }\r
+
+    ]"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331474
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

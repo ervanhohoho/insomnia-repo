@@ -1,0 +1,21 @@
+_id: req_3deb317ff08843ca9a9c82875f51dc82
+type: Request
+parentId: fld_b53d017d81094b479a2d34b7c6d52f5c
+modified: 1694513331474
+created: 1694513331474
+url: "{{api}}/api/v1/products/:sku/settings"
+name: GET Platform Ribbon Setting via COPS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331474
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

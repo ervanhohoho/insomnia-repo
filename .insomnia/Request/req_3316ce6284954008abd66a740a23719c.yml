@@ -1,0 +1,53 @@
+_id: req_3316ce6284954008abd66a740a23719c
+type: Request
+parentId: fld_665afa3cd13a45789e009fb6a5c87f6f
+modified: 1694513443690
+created: 1694513331480
+url: "{{ _['grpc-gateway'] }}/v1/cops/sku"
+name: Get SKU Detail
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: subcategoryIds
+    value: "38"
+    disabled: true
+    id: pair_cac3bf25e8ab49cb8b84f24e3c85763f
+  - name: activeOnly
+    value: "true"
+    disabled: true
+    id: pair_e730121e4837440186be2265e6659e17
+  - name: page
+    value: "1"
+    disabled: true
+    id: pair_2e6d76cb3f8b4cb296b77b81abac586d
+  - name: pageItemCount
+    value: "2"
+    disabled: true
+    id: pair_6edb00a28a4e444b96e871fe96cda0df
+  - name: skuIds
+    value: "8635"
+    disabled: false
+    id: pair_10f211f741164390989c74c45ac252c4
+  - name: skuNumbers
+    value: 1,2
+    disabled: true
+    id: pair_85ff5913ad524a968fa5f39d76a9fe3b
+  - name: dearSkuNumbers
+    value: 1,2
+    disabled: true
+    id: pair_9fd65e46f8dc4e0badbbca7c1c30ca9e
+  - name: categoryIds
+    value: 1,2
+    disabled: true
+    id: pair_74f22326b79d40bb9d7a4018d6d1451d
+headers: []
+authentication: {}
+metaSortKey: -1694513331480
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

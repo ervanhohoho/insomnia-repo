@@ -1,0 +1,33 @@
+_id: req_bd8ea387d35347f28943cebfd183118c
+type: Request
+parentId: fld_b53d017d81094b479a2d34b7c6d52f5c
+modified: 1694513331475
+created: 1694513331475
+url: "{{api}}/api/v1/products/categories/settings"
+name: POST New Category Setting
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \  \"categoryId\": \"9\",\r
+
+    \  \"slug\": \"peliharaan\",\r
+
+    \  \"rank\": 1,\r
+
+    \  \"comingSoon\": false\r
+
+    }"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694513331475
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

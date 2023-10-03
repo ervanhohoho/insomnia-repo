@@ -1,0 +1,26 @@
+_id: req_7fa522570e464060a00d22312b0ce326
+type: Request
+parentId: fld_45cfccd1a7cd42f9a5c8f142f4773dee
+modified: 1694513331479
+created: 1694513331479
+url: "{{cops-api}}/api/category/subcategory"
+name: GET Subcategories
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: ""
+    value: null
+    disabled: true
+headers:
+  - name: accept
+    value: "*/*"
+authentication: {}
+metaSortKey: -1694513331479
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

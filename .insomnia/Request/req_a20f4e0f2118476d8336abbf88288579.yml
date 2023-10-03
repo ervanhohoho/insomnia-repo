@@ -1,0 +1,42 @@
+_id: req_a20f4e0f2118476d8336abbf88288579
+type: Request
+parentId: fld_45cfccd1a7cd42f9a5c8f142f4773dee
+modified: 1694513331478
+created: 1694513331478
+url: "{{cops-api}}/api/category"
+name: POST New Category
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"category_name\": \"Sebuah kategori baru\",\r
+
+    \    \"is_active\": true,\r
+
+    \    \"created_by\": \"teddy.saputra@joybox.co.id\",\r
+
+    \    \"slug\": \"sebuah-kategori-baru\",\r
+
+    \    \"rank\": 30,\r
+
+    \    \"coming_soon\": true\r
+
+    }"
+parameters:
+  - name: ""
+    value: null
+    disabled: true
+headers:
+  - name: accept
+    value: "*/*"
+authentication: {}
+metaSortKey: -1694513331478
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,9 +1,10 @@
 _id: req_71d2155dae124e8b9d0bf1c1f30e695b
 type: Request
 parentId: fld_896823fedc2841668ba7327603b49742
-modified: 1696220208678
+modified: 1696229764552
 created: 1696220208678
-url: "{{domainProd}}/v1/all-products/7ba75a58-df02-44de-92be-ffef8e85dd42/stock"
+url: "{{ _['fresh-factory'].url }}/v1/all-products/{{
+  _['fresh-factory'].warehouseId }}/stock"
 name: Get All stock
 description: ""
 method: GET
@@ -23,7 +24,9 @@ headers:
     value: application/json
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _['fresh-factory'].token }}"
 metaSortKey: -1696220208678
 isPrivate: false
 settingStoreCookies: true

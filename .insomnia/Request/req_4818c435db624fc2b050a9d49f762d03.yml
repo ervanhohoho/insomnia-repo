@@ -1,0 +1,33 @@
+_id: req_4818c435db624fc2b050a9d49f762d03
+type: Request
+parentId: fld_8993641e5218457d8a4cc889be741c58
+modified: 1696404290212
+created: 1696404178776
+url: "{{ _['platform-backend'] }}/api/v1/cart/item/upsert"
+name: Add to cart
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"qty": 1,
+    	"sku": "GL909105102101"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJiN2E4YWU5My1iZjRhLTQwN2EtYmNjYi05YmJkM2UzNTg1OTciLCJpYXQiOjE2OTY0MDQyNDgsImlzcyI6ImpveWJveCIsImF1ZCI6ImpveWJveC1hcHAiLCJleHAiOjE3MDQxODAyNDh9.E1_Qw_b9JtrUK1a78kVssYoA_5DkSLk078F3GDX9MoC_zo9WpifuTb5BzWich05OU_LvTKwGjHBmnPYP6VcXKk_UzXP_IZnU27_lOIlnAt9qDPK3l8rIGpzvmpL_iAQ89TfHocRxrVWJJHezIMLumJV27btPgfUPa3S8Ltnk0BqIIE7r4AnJOsD1hNdNbOBYsLp6uGgDTLzPyqvLy-kr-_iKpque3pCGPzJhB4tpagGG2JHs0nsBHfPe3g1vi2f7deOMxTALb3WlwGP-G3YJhJmqTS4-IVEn3UQRVVTmhhyoicIYPCUnI1FsGozTMGqW9E4ZPdZWSi7n8iklSpNvUA
+metaSortKey: -1696404178776
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

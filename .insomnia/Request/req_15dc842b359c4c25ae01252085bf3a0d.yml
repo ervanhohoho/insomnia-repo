@@ -1,0 +1,27 @@
+_id: req_15dc842b359c4c25ae01252085bf3a0d
+type: Request
+parentId: fld_8993641e5218457d8a4cc889be741c58
+modified: 1696392166393
+created: 1696391516295
+url: "{{ _['platform-backend'] }}/api/v1/products/categories"
+name: Get Categories
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_d859dd66eb034fdbbac9a802aa071f85
+    name: includeClearance
+    value: "true"
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1696391516295
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

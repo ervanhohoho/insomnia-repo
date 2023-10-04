@@ -1,9 +1,9 @@
 _id: req_42e35f1162c0489da1411e884ba702d2
 type: Request
 parentId: fld_896823fedc2841668ba7327603b49742
-modified: 1696220208673
+modified: 1696229888212
 created: 1696220208673
-url: "{{domainProd}}/v1/products"
+url: "{{ _['fresh-factory'].url }}/v1/products"
 name: Get all
 description: ""
 method: GET
@@ -29,7 +29,9 @@ headers:
     value: application/json
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _['fresh-factory'].token }}"
 metaSortKey: -1696220208673
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: env_359ef39f653a40a2861ffdf0d5ea97b8
 type: Environment
 parentId: env_390223c592083e2a2ac1d294b3a9ddaa05a6eada
-modified: 1694663425742
+modified: 1696397833928
 created: 1692871221481
 name: DEV
 data:
@@ -10,6 +10,8 @@ data:
   cops-grpc: localhost:6970
   cops-api: localhost:6969
   grpc-gateway-cops: localhost:8081/v1/cops
+  platform-backend: localhost:8000
+  opor-api: localhost:9000
 dataPropertyOrder:
   "&":
     - hermes-grpc
@@ -17,6 +19,8 @@ dataPropertyOrder:
     - cops-grpc
     - cops-api
     - grpc-gateway-cops
+    - platform-backend
+    - opor-api
 color: null
 isPrivate: false
 metaSortKey: 1692871221481

@@ -1,20 +1,24 @@
 _id: req_1679612ffd2d48088d6c6c5e7d7fb8f2
 type: Request
 parentId: fld_0dc5ecddf06b4798983ed66f1881f6fc
-modified: 1696220208686
+modified: 1696228041424
 created: 1696220208686
-url: "{{domain}}/v1/orders/7873afa8-77bc-4cdc-ac37-1f963f3b78da"
+url: "{{ _['fresh-factory'].url }}/v1/orders/7873afa8-77bc-4cdc-ac37-1f963f3b78da"
 name: Find
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: ""
 parameters: []
 headers:
-  - name: Accept
-    value: application/json
   - name: Content-Type
     value: application/json
-authentication: {}
+  - name: Accept
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _['fresh-factory'].token }}"
 metaSortKey: -1696220208686
 isPrivate: false
 settingStoreCookies: true

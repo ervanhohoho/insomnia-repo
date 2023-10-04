@@ -1,28 +1,28 @@
 _id: req_24842537dca5422fb7b3e153b84b6bda
 type: Request
 parentId: fld_86c597cbf69340298174a9c5d8ad323f
-modified: 1696220208681
+modified: 1696220681737
 created: 1696220208681
-url: "{{domain}}/v1/reservation/times"
+url: "{{ _['fresh-factory'].url }}/v1/reservation/times"
 name: reservation
 description: ""
 method: POST
 body:
-  params:
-    - value: 51321666-7bd5-459d-aa36-428d0987a0fb
-      name: warehouseId
-      disabled: false
-    - value: 2020-12-19 13:00:00
-      name: reservationDate
-      disabled: false
-  mimeType: application/x-www-form-urlencoded
+  mimeType: application/json
+  text: |-
+    {
+    	"warehouseId": "{{ _['fresh-factory'].warehouseId }}",
+    	"reservationDate": "2023-10-02 13:00:00"
+    }
 parameters: []
 headers:
-  - name: Accept
-    value: application/json
   - name: Content-Type
     value: application/json
-authentication: {}
+  - name: Accept
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _['fresh-factory'].token }}"
 metaSortKey: -1696220208681
 isPrivate: false
 settingStoreCookies: true

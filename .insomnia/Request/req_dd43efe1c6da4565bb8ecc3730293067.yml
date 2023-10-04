@@ -1,7 +1,7 @@
 _id: req_dd43efe1c6da4565bb8ecc3730293067
 type: Request
 parentId: fld_fa04a6808a0b49fbb7198c8cb6ae3ace
-modified: 1696219662012
+modified: 1696229345670
 created: 1695616575473
 url: "{{ _['fresh-factory'].url }}/v1/orders"
 name: Create
@@ -13,8 +13,8 @@ body:
     {
     	"warehouseId": "{{ _['fresh-factory'].warehouseId }}",
     	"platform": "Marketplace",
-    	"platformInvoiceId": "testpayloadsku01",
-    	"bookingId": "testpayloadsku01",
+    	"platformInvoiceId": "testpayloadsku02",
+    	"bookingId": "testpayloadsku02",
     	"customerName": "Fresh Factory Bali",
     	"customerState": "Bali",
     	"customerCity": "Denpasar",
@@ -38,7 +38,7 @@ body:
     	"packaging": "1",
     	"logisticCompany": "Ambil Sendiri",
     	"logisticService": "Ambil Sendiri",
-    	"estimatedPickupTime": "2023-10-2 12:37:01",
+    	"estimatedPickupTime": "2023-10-2 14:37:01",
     	"estimatedWeight": "1000",
     	"estimatedDeliveryFee": "null",
     	"notes": "",
@@ -46,6 +46,7 @@ body:
     	"sla": "normal",
     	"vehicle": "mobil",
     	"area": "dry",
+    	"notes": "SOMEBATCH",
     	"products": [
     		{
                 "sku" : "TestSKU",

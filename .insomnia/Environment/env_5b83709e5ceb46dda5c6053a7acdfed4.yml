@@ -1,7 +1,7 @@
 _id: env_5b83709e5ceb46dda5c6053a7acdfed4
 type: Environment
 parentId: env_390223c592083e2a2ac1d294b3a9ddaa05a6eada
-modified: 1696219008504
+modified: 1696406622748
 created: 1693906125779
 name: STG
 data:
@@ -14,6 +14,7 @@ data:
     url: https://api-staging.freshfactory.id
     token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGktc3RhZ2luZy5mcmVzaGZhY3RvcnkuaWRcL3YxXC9sb2dpbiIsImlhdCI6MTY5NDU5ODQxMywibmJmIjoxNjk0NTk4NDEzLCJqdGkiOiJtVmV0WWhNWlpZN0hQNndhIiwic3ViIjoiODM5ZmM0YjAtOTliMi00NDBjLWIzYmYtNjlkMGZmZjQyNmUwIiwicHJ2IjoiNWQ5MGY5MDI3YTM4NzFmMDQyYTI2MzYxMzA4YzZmMDZkNmIyZDMyOCJ9.Ka4t-XuTmUmvb9bGWdvqZruFMVHMffgK3hf6pUKMBJI
     warehouseId: 57bac3e2-92e6-4289-aac5-b8a78acd588f
+  platform-backend: https://joybox-backend-staging.hhfhombppk8qc.ap-southeast-1.cs.amazonlightsail.com
 dataPropertyOrder:
   "&":
     - hermes-grpc
@@ -22,6 +23,7 @@ dataPropertyOrder:
     - opor-api
     - grpc-gateway-cops
     - fresh-factory
+    - platform-backend
   "&~|fresh-factory":
     - url
     - token

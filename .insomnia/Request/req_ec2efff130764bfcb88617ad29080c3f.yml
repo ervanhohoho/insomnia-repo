@@ -1,0 +1,25 @@
+_id: req_ec2efff130764bfcb88617ad29080c3f
+type: Request
+parentId: fld_f8693b991098438aaa9ff14817f19742
+modified: 1696403467045
+created: 1696397367097
+url: "{{ _['opor-api']
+  }}/api/v1/warehouse/expiry_date?skuNumbers=GL0030416001&skuNumbers=GL00601760\
+  20&skuNumbers=GL915101109115"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1696397367097
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

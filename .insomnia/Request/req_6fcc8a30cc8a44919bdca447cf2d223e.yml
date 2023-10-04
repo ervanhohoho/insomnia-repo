@@ -1,0 +1,34 @@
+_id: req_6fcc8a30cc8a44919bdca447cf2d223e
+type: Request
+parentId: fld_8993641e5218457d8a4cc889be741c58
+modified: 1696403214755
+created: 1696392155489
+url: "{{ _['platform-backend']
+  }}/api/v1/products?slug=bayi-dan-anak&includeClearance=true&page=1&count=20"
+name: Get Products
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_31695662c5c342ed99104ce70401d8d9
+    name: slug
+    value: kebutuhan-rumah-tangga
+    description: ""
+    disabled: true
+  - id: pair_8fed50e4a4fd49df8a6aa72e795545a5
+    name: includeClearance
+    value: "true"
+    description: ""
+    disabled: true
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1696392155489
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

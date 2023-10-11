@@ -1,16 +1,18 @@
 _id: env_3ceed30093cc43e1802040824eb179e0
 type: Environment
 parentId: env_390223c592083e2a2ac1d294b3a9ddaa05a6eada
-modified: 1695294425530
+modified: 1696823943179
 created: 1693387665426
 name: PROD
 data:
   hermes-grpc: grpcs://hermes-api.cosmart.id:2010
   cops-grpc: grpcs://cops.cosmart.id:6970
+  grpc-gateway-cops: https://janus.cosmart.id/v1/cops
 dataPropertyOrder:
   "&":
     - hermes-grpc
     - cops-grpc
+    - grpc-gateway-cops
 color: null
 isPrivate: false
 metaSortKey: 1693387665426

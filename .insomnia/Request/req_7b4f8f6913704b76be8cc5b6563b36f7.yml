@@ -1,7 +1,7 @@
 _id: req_7b4f8f6913704b76be8cc5b6563b36f7
 type: Request
 parentId: fld_0492a4812d664a9ca94521d6646565eb
-modified: 1693906190236
+modified: 1697018585131
 created: 1693906084590
 url: "{{ _['opor-api'] }}/api/v1/order/confirm"
 name: Confirm Order
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-        "orderId": "202385111899699",
+        "orderId": "2023911117770379",
         "eventType": "order_confirmed",
         "paymentRequestId": "P.1687755714569.2023526683992919",
         "paymentDate": "2023-06-26"

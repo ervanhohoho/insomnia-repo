@@ -1,18 +1,18 @@
 _id: greq_c46f6b5994c84c84986b3fde2a6f86ad
 type: GrpcRequest
 parentId: fld_c8077bd5c7184fb4b08301537238ddab
-modified: 1694586865862
+modified: 1696842519991
 created: 1694060106819
 url: "{{ _['cops-grpc'] }}"
 name: New SKU
 description: ""
 protoFileId: ""
-protoMethodName: /cosmart.cops.v1.content.ContentService/GetReloadCache
+protoMethodName: /cosmart.cops.v1.sku.SkuService/BulkUpdateS3
 metadata: []
 body:
   text: |-
     {
-      "domain_name": "sku"
+      "key": "ec57d611-927f-46b0-b050-a48993015ac4.csv"
     }
 metaSortKey: -1694060106819
 isPrivate: false

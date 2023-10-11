@@ -1,7 +1,7 @@
 _id: req_7ff240882e194dbb94911b5d514abad6
 type: Request
 parentId: fld_a56c9665b41b4e6fbba9153ce5cbcf1e
-modified: 1694663883370
+modified: 1696834313901
 created: 1694575816043
 url: "{{ _['grpc-gateway-cops'] }}/api/sku"
 name: Edit SKU
@@ -11,32 +11,24 @@ body:
   mimeType: application/json
   text: |-
     {
-      "id": 0,
-      "sku_number": "string",
-      "dear_sku_number": "string",
-      "sku_name": "string",
-      "barcode": "string",
-      "is_active": "string",
-      "moq": 0,
-      "max_order_quantity": 0,
-      "parent_sku": "string",
-      "description": "string",
-      "is_virtual": true,
-      "is_legal_age": true,
-      "is_tax_exemptable": true,
-      "is_clearance": true,
-      "fresh_type": "string",
-      "brand_id": 0,
-      "uom_id": 0,
-      "packaging_id": 0,
-      "uom_quantity": 0,
-      "subcategory_id": [
-        0
-      ],
-      "sku_images": [
-        "string"
-      ],
-      "updated_by": "string"
+    	"id": 1,
+    	"sku_number": "10010002",
+    	"sku_name": "A&W Sarsaparilla",
+    	"dear_sku_number": "10010001",
+    	"barcode": "8992761111687",
+    	"moq": "2",
+    	"max_order_quantity": "999",
+    	"parent_sku": "",
+    	"description": "Paket berisi (2x) A&W Sarsaparilla 250ml",
+    	"updatedBy": "teddy.saputra@joybox.co.id",
+    	"update_sku_number": true,
+    	"update_sku_name": true,
+    	"update_dear_sku_number": true,
+    	"update_barcode": true,
+    	"update_moq": true,
+    	"update_max_order_quantity": true,
+    	"update_parent_sku": true,
+    	"update_description": true
     }
 parameters: []
 headers:

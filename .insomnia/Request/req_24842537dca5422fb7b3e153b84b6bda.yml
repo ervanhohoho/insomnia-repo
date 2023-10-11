@@ -1,7 +1,7 @@
 _id: req_24842537dca5422fb7b3e153b84b6bda
 type: Request
 parentId: fld_86c597cbf69340298174a9c5d8ad323f
-modified: 1696220681737
+modified: 1696494138503
 created: 1696220208681
 url: "{{ _['fresh-factory'].url }}/v1/reservation/times"
 name: reservation
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"warehouseId": "{{ _['fresh-factory'].warehouseId }}",
-    	"reservationDate": "2023-10-02 13:00:00"
+    	"reservationDate": "2023-10-05 16:00:00"
     }
 parameters: []
 headers:

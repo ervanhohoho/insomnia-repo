@@ -1,20 +1,22 @@
 _id: req_d946d816a64c4756a64dcbce794550c7
 type: Request
 parentId: fld_531d54f4af1a4994ae0b5f61c61c89a7
-modified: 1693906084589
+modified: 1697019278085
 created: 1693906084589
-url: "{{opor-api}}/api/v1/warehouse/sales/order"
+url: "{{ _['opor-api'] }}/api/v1/warehouse/sales/order"
 name: Sales Order
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/json
   text: |-
     {
-        "orderId": "2022118257209181"
+        "orderId": "2023911117770379"
     }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1693906084589
 isPrivate: false

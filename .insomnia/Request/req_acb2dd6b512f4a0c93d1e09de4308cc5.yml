@@ -1,7 +1,7 @@
 _id: req_acb2dd6b512f4a0c93d1e09de4308cc5
 type: Request
 parentId: fld_0492a4812d664a9ca94521d6646565eb
-modified: 1693906152287
+modified: 1697018517460
 created: 1693906084590
 url: "{{ _['opor-api'] }}/api/v1/order"
 name: New Order
@@ -9,7 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"orderId": "202385111899699", "eventType": "order_created"}'
+  text: '{"orderId": "2023911117770379", "eventType": "order_created"}'
 parameters: []
 headers:
   - name: Content-Type

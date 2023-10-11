@@ -1,7 +1,7 @@
 _id: req_124d65b242144e2aaeff4e5ebbc29b55
 type: Request
 parentId: fld_36dc51d2046640c4a8fb920b0f41df13
-modified: 1695270368488
+modified: 1696822458820
 created: 1693885784109
 url: "{{ _['grpc-gateway-cops'] }}/api/sku/upload"
 name: Upload file
@@ -15,7 +15,7 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /home/ervan/Downloads/Bulk Upload CSV Retool - [Download] Template .csv
+      fileName: /home/ervan/Downloads/sku2023-10-Tu_11-35 - sku2023-10-Tu_11-35.csv.csv
     - id: pair_75903514be414413a50ce4e284521c82
       name: mode
       value: update

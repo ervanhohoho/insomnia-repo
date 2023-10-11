@@ -1,24 +1,26 @@
 _id: req_9fe0110707d24737a12ee7aa329d242e
 type: Request
 parentId: fld_0492a4812d664a9ca94521d6646565eb
-modified: 1693906084592
+modified: 1697018754959
 created: 1693906084592
-url: "{{opor-api}}/api/v1/order/batch"
+url: "{{ _['opor-api'] }}/api/v1/order/batch"
 name: Batch Orders
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/json
   text: |-
     {
-        "orderId": "202381364899447",
+        "orderId": "2023911117770379",
         "eventType": "",
         "paymentRequestId": "",
         "paymentDate": "",
         "warehouseName": ""
     }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1693906084592
 isPrivate: false

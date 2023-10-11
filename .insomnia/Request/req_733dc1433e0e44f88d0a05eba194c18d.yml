@@ -1,0 +1,23 @@
+_id: req_733dc1433e0e44f88d0a05eba194c18d
+type: Request
+parentId: fld_531d54f4af1a4994ae0b5f61c61c89a7
+modified: 1697019442510
+created: 1697019432488
+url: ""
+name: Update Batch
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1697019432488
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

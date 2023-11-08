@@ -1,0 +1,23 @@
+_id: req_5cdbcf5c6669479e87a963666c7a4564
+type: Request
+parentId: fld_531d54f4af1a4994ae0b5f61c61c89a7
+modified: 1699428079611
+created: 1699428050921
+url: "{{ _['opor-api'] }}/api/v1/warehouse/sales/external/poll"
+name: Poll WMS status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1699428050921
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

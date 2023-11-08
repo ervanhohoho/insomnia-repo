@@ -1,7 +1,7 @@
 _id: req_d946d816a64c4756a64dcbce794550c7
 type: Request
 parentId: fld_531d54f4af1a4994ae0b5f61c61c89a7
-modified: 1697019278085
+modified: 1697446582940
 created: 1693906084589
 url: "{{ _['opor-api'] }}/api/v1/warehouse/sales/order"
 name: Sales Order
@@ -11,13 +11,14 @@ body:
   mimeType: application/json
   text: |-
     {
-        "orderId": "2023911117770379"
+        "orderId": "2023916134770354"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
 metaSortKey: -1693906084589
 isPrivate: false
 settingStoreCookies: true

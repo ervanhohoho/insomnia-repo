@@ -1,0 +1,37 @@
+_id: req_83e7bb770866405cb241fb9670791f78
+type: Request
+parentId: fld_896823fedc2841668ba7327603b49742
+modified: 1699415011435
+created: 1699414950723
+url: https://api-staging.freshfactory.id/v1/integrations/stock-item/dismantle
+  requested
+name: Stock by status
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"warehouseId": "{{ _['fresh-factory'].warehouseId }}"
+    }
+parameters:
+  - id: pair_2a890d155f86486d9f6cbb538bfc0dd1
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _['fresh-factory'].token }}"
+metaSortKey: -1698133129392.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,14 +1,14 @@
 _id: req_80871504b2504e0dbda67b8b39c38233
 type: Request
 parentId: fld_aa65968db48a45b5aa30db029f480c44
-modified: 1693906084595
+modified: 1699416633098
 created: 1693906084595
-url: "{{opor-api}}/api/v1/purchase_order/grn/webhook"
+url: "{{ _['opor-api'] }}/api/v1/purchase_order/grn/webhook"
 name: GRN Integration
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/json
   text: |-
     {
         "warehouse_id": "WH-CGK41",
@@ -63,7 +63,9 @@ body:
         ]
     }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1693906084595
 isPrivate: false

@@ -1,0 +1,32 @@
+_id: req_2613fbaf8c9743598779f2b81b623765
+type: Request
+parentId: fld_896823fedc2841668ba7327603b49742
+modified: 1699247298930
+created: 1699246826297
+url: https://api-staging.freshfactory.id/v1/integration/stock-by-expired
+name: Stock Expiry Date
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"warehouseId": "{{ _['fresh-factory'].warehouseId }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _['fresh-factory'].token }}"
+metaSortKey: -1699246826297
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_dd43efe1c6da4565bb8ecc3730293067
 type: Request
 parentId: fld_fa04a6808a0b49fbb7198c8cb6ae3ace
-modified: 1696229345670
+modified: 1697020157883
 created: 1695616575473
 url: "{{ _['fresh-factory'].url }}/v1/orders"
 name: Create
@@ -11,48 +11,47 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"warehouseId": "{{ _['fresh-factory'].warehouseId }}",
+    	"warehouseId": "57bac3e2-92e6-4289-aac5-b8a78acd588f",
     	"platform": "Marketplace",
-    	"platformInvoiceId": "testpayloadsku02",
-    	"bookingId": "testpayloadsku02",
-    	"customerName": "Fresh Factory Bali",
-    	"customerState": "Bali",
-    	"customerCity": "Denpasar",
-    	"customerDistrict": "Denpasar Selatan",
-    	"customerSubdistrict": "SANUR",
-    	"customerPhoneNumber": "081081081081",
-    	"customerAddress": "KBL",
-    	"customerLongitude": "115.18811100",
-    	"customerLatitude": "-8.68780600",
-    	"customerPostalCode": "80228",
-    	"recipientName": "Livia",
-    	"recipientPhoneNumber": "081081081",
-    	"recipientAddress": "Jl. Gn. Soputan",
+    	"platformInvoiceId": "2023911117770379",
+    	"bookingId": "2023911117770379",
+    	"customerName": "Ervan",
+    	"customerPhoneNumber": "081905517770",
+    	"customerAddress": "Alamanda",
+    	"customerLongitude": "",
+    	"customerLatitude": "",
+    	"customerPostalCode": "15323",
+    	"customerState": "Banten",
+    	"customerCity": "Kota Tangerang Selatan",
+    	"customerDistrict": "",
+    	"customerSubdistrict": "",
+    	"recipientName": "Ervan",
+    	"recipientPhoneNumber": "081905517770",
+    	"recipientAddress": "Alamanda",
     	"paymentType": "PbD",
     	"pod": "0",
     	"moneyReceived": "0",
     	"discountValue": "0",
-    	"recipientLatitude": "115.18811100",
-    	"recipientLongitude": "-8.68780600",
+    	"recipientDistrictCode": "",
+    	"recipientPostalCode": "15323",
+    	"recipientLatitude": "",
+    	"recipientLongitude": "",
     	"pickedBy": "freshfactory",
     	"packaging": "1",
-    	"logisticCompany": "Ambil Sendiri",
-    	"logisticService": "Ambil Sendiri",
-    	"estimatedPickupTime": "2023-10-2 14:37:01",
+    	"logisticCompany": "KURIR REKOMENDASI",
+    	"logisticService": "Instant",
     	"estimatedWeight": "1000",
-    	"estimatedDeliveryFee": "null",
+    	"estimatedDeliveryFee": "1000",
     	"notes": "",
     	"orderType": "sales",
     	"sla": "normal",
     	"vehicle": "mobil",
-    	"area": "dry",
-    	"notes": "SOMEBATCH",
     	"products": [
     		{
-                "sku" : "TestSKU",
-                "quantity": "1",
-                "type": "product"
-        }
+    			"sku": "65710001",
+    			"quantity": 1,
+    			"type": "product"
+    		}
     	]
     }
 parameters: []

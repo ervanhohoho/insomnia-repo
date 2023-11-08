@@ -1,7 +1,7 @@
 _id: req_d87b929a81d649419d983f6d452ed2ca
 type: Request
 parentId: fld_86c597cbf69340298174a9c5d8ad323f
-modified: 1696409145222
+modified: 1699244471392
 created: 1696220208682
 url: "{{ _['fresh-factory'].url }}/v1/reservations"
 name: reservation product
@@ -11,26 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"reservationId": "75434015-1052-4ea1-bba5-80806dccba87", 
+    	"reservationId": "a53c7f50-f495-4a18-9e94-d819b224a039", 
     	"warehouseId": "{{ _['fresh-factory'].warehouseId }}",
     	"products":[
     		{
-    			"sku": "GL0020388001", 
-    			"quantity": 100
-    		},{
-    			"sku": "GL0020381002", 
-    			"quantity": 100
-    		},{
-    			"sku": "GL0020436035", 
-    			"quantity": 100
-    		},{
-    			"sku": "65710001", 
-    			"quantity": 100
-    		},{
-    			"sku": "17110001", 
-    			"quantity": 100
-    		},{
-    			"sku": "20910001", 
+    			"sku": "TestSKU", 
     			"quantity": 100
     		}
     	]

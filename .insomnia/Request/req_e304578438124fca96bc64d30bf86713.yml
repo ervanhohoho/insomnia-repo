@@ -1,7 +1,7 @@
 _id: req_e304578438124fca96bc64d30bf86713
 type: Request
 parentId: fld_86c597cbf69340298174a9c5d8ad323f
-modified: 1696409297923
+modified: 1699244467797
 created: 1696220208682
 url: "{{ _['fresh-factory'].url }}/v1/reservation/submit"
 name: reservation submit
@@ -9,11 +9,13 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: |
     {
     	"warehouseId": "{{ _['fresh-factory'].warehouseId }}",
-    	"reservationDate": "2023-10-04",
-    	"reservationId": "75434015-1052-4ea1-bba5-80806dccba87"
+    	"reservationDate": "2023-11-06",
+    	"reservationId": "a53c7f50-f495-4a18-9e94-d819b224a039",
+    	"poNumber": "POC-00001",
+    	"platform": "Cosmart"
     }
 parameters: []
 headers:

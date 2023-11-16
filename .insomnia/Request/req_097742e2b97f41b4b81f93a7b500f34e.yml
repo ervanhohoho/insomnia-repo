@@ -1,0 +1,36 @@
+_id: req_097742e2b97f41b4b81f93a7b500f34e
+type: Request
+parentId: fld_0dc5ecddf06b4798983ed66f1881f6fc
+modified: 1696220208690
+created: 1696220208690
+url: "{{domainProd}}/v1/orders/AWB/4c022109-4016-4531-9de9-ad57e0035dfe"
+name: Add AWB
+description: ""
+method: POST
+body:
+  params:
+    - value: "0109392200002013"
+      name: waybill
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+  - name: Accept-Language
+    value: id
+    disabled: true
+  - name: Accept
+    value: application/json
+    disabled: true
+authentication: {}
+metaSortKey: -1696220208690
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_9441894d9b98442e9ddd650435acef0d
+type: Request
+parentId: fld_693e25062c48483fa84e5687c193fed6
+modified: 1694575816023
+created: 1694575816023
+url: "{{deliveree-api}}/v1/deliveries"
+name: GET Delivery Summary
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: per_page
+    value: "50"
+    disabled: false
+  - name: "Accept-Language\t"
+    value: en
+    disabled: true
+headers:
+  - name: Accept-Language
+    value: en
+authentication: {}
+metaSortKey: -1694575816023
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

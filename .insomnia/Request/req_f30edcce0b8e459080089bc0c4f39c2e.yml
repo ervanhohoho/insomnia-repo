@@ -1,0 +1,58 @@
+_id: req_f30edcce0b8e459080089bc0c4f39c2e
+type: Request
+parentId: fld_1dfda14a061f44c49473dd59c9d0d3c4
+modified: 1696220208704
+created: 1696220208704
+url: "{{domain}}/v1/resellers"
+name: Get All Reseller
+description: ""
+method: GET
+body:
+  params: []
+  mimeType: application/x-www-form-urlencoded
+parameters:
+  - name: resellerId
+    value: T2T-2020112600005
+    disabled: true
+  - name: company
+    value: Daily
+    disabled: true
+  - name: skuFF
+    value: FF-001
+    disabled: true
+  - name: ikuId
+    value: BKS
+    disabled: true
+  - name: warehouseId
+    value: ""
+    disabled: true
+  - name: startDate
+    value: 2020-11-24
+    disabled: true
+  - name: endDate
+    value: 2020-11-26
+    disabled: true
+  - name: status
+    value: Prepare,Finish,Next
+    disabled: true
+  - name: orderBy
+    value: created_at
+    disabled: true
+  - name: sortBy
+    value: asc
+    disabled: true
+  - name: tenantId
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208704
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

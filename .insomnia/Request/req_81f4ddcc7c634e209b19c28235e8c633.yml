@@ -1,0 +1,34 @@
+_id: req_81f4ddcc7c634e209b19c28235e8c633
+type: Request
+parentId: fld_401f62f9383f4fffb498f0d45cc7349f
+modified: 1696220208698
+created: 1696220208698
+url: "{{domain}}/v1/returns/2a656355-1454-11eb-ab2b-002622597a72"
+name: Update
+description: ""
+method: PATCH
+body:
+  params:
+    - value: Item
+      name: refundType
+      disabled: false
+    - value: e6af0df2-937d-446d-b8d5-d621ce4047b2
+      name: products[0][id]
+      disabled: false
+    - value: "0"
+      name: products[0][qty]
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208698
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

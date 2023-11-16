@@ -1,0 +1,57 @@
+_id: req_d87b929a81d649419d983f6d452ed2ca
+type: Request
+parentId: fld_86c597cbf69340298174a9c5d8ad323f
+modified: 1696220208682
+created: 1696220208682
+url: "{{domain}}/v1/reservations"
+name: reservation product
+description: ""
+method: POST
+body:
+  params:
+    - value: 2e3baf2a-94be-47bb-8391-e2abd75cbc38
+      name: warehouseId
+      disabled: false
+    - value: 2f9c066d-cf6e-4135-a7ba-cc164e29bf84
+      name: reservationId
+      disabled: false
+    - value: TL001
+      name: products[0][sku]
+      disabled: false
+    - value: "1"
+      name: products[0][quantity]
+      disabled: false
+    - value: 968ed22a-b423-48bd-a145-c202fa262145
+      name: products[1][productId]
+      disabled: true
+    - value: "2"
+      name: products[1][quantity]
+      disabled: true
+    - value: 18e466b5-057e-42d2-84a9-f92edfa0f267
+      name: products[2][productId]
+      disabled: true
+    - value: "4"
+      name: products[2][quantity]
+      disabled: true
+    - value: 8de90dd5-6c01-433e-ae4f-83919b929b25
+      name: products[3][productId]
+      disabled: true
+    - value: "3"
+      name: products[3][quantity]
+      disabled: true
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208682
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

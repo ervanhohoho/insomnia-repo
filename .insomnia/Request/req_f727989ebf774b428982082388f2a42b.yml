@@ -1,0 +1,21 @@
+_id: req_f727989ebf774b428982082388f2a42b
+type: Request
+parentId: fld_a56c9665b41b4e6fbba9153ce5cbcf1e
+modified: 1694575816048
+created: 1694575816048
+url: "{{cops-api}}/api/reload-cache"
+name: Reload Cache
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694575816048
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

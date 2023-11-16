@@ -1,0 +1,25 @@
+_id: req_e5c2821da0c84523aafea4a8754cfdda
+type: Request
+parentId: fld_0dc5ecddf06b4798983ed66f1881f6fc
+modified: 1696220208688
+created: 1696220208688
+url: "{{domain}}/v1/orders/cancel/fee/INV2020090200003"
+name: Cancel Fee
+description: ""
+method: GET
+body:
+  params: []
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

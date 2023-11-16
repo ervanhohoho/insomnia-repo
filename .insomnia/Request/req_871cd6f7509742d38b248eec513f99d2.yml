@@ -1,0 +1,23 @@
+_id: req_871cd6f7509742d38b248eec513f99d2
+type: Request
+parentId: fld_2551c36ae5404b059465f3e970055ff4
+modified: 1696220208692
+created: 1696220208692
+url: "{{domain}}/v1/wallets/current"
+name: Current Credit Balance
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208692
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_ed8705a7a56d4a6d94882aa363b42cb6
+type: Request
+parentId: fld_531d54f4af1a4994ae0b5f61c61c89a7
+modified: 1699611267400
+created: 1699611173766
+url: "{{ _['opor-api'] }}/api/v1/warehouse/check-discrepancy"
+name: New Request
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1699611173766
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

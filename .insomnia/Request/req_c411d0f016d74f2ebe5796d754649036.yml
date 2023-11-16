@@ -1,0 +1,37 @@
+_id: req_c411d0f016d74f2ebe5796d754649036
+type: Request
+parentId: fld_a7cc95bf6f17491ebc1b2722c6b8990d
+modified: 1694594637864
+created: 1694575816037
+url: "{{ _['grpc-gateway-cops'] }}/api/v1/pricing/url"
+name: Upsert URL
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"id\":\"1\",\r
+
+    \    \"url\":\"https://www.tokpedz.com\",\r
+
+    \    \"variant\":\"\",\r
+
+    \    \"quantity\":100,\r
+
+    \    \"source\":\"tokopedia\",\r
+
+    \    \"updatedBy\":\"teddy.saputra@joybox.co.id\"\r
+
+    }"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694575816037
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

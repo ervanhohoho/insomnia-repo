@@ -1,0 +1,25 @@
+_id: req_1bcb3491ffa1415a9051a133cb0a9d75
+type: Request
+parentId: fld_6df7d0a84e5e453db17c9cb057ecf4cf
+modified: 1696220208710
+created: 1696220208710
+url: "{{domain}}/v1/towsproducts/f49a0c95-5b3e-43bc-90ea-0859ce5c81cc"
+name: Delete Product
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,11 @@
+_id: fld_4c162add092043c2b8c96cd063285efa
+type: RequestGroup
+parentId: wrk_0c44d0b40a974f67ab89af721af3fe29
+modified: 1696220208667
+created: 1696220208667
+name: FreshFactory Documentation
+description: "Staging Endpoint:
+  [https://api-staging.freshfactory.id/](https://api-staging.freshfactory.id/)"
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1696220208668

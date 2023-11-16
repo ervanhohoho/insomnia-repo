@@ -1,0 +1,34 @@
+_id: req_71d2155dae124e8b9d0bf1c1f30e695b
+type: Request
+parentId: fld_896823fedc2841668ba7327603b49742
+modified: 1696220208678
+created: 1696220208678
+url: "{{domainProd}}/v1/all-products/7ba75a58-df02-44de-92be-ffef8e85dd42/stock"
+name: Get All stock
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: productId
+    value: 08b48961-2136-4500-a1e3-a3edacdf3fde
+    disabled: true
+  - name: type
+    value: subscription
+    disabled: true
+  - name: skuNumber
+    value: BDL2021040500005
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208678
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

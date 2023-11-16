@@ -1,0 +1,35 @@
+_id: req_5098c1d04935412498439930538c1916
+type: Request
+parentId: wrk_0c44d0b40a974f67ab89af721af3fe29
+modified: 1696578667908
+created: 1696571091610
+url: "{{ _['grpc-gateway'] }}/v1/cops/api/sku/upload"
+name: https://janus.staging.cosmart.id/v1/cops/api/sku/upload
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: file
+      fileName: /home/ervan/Downloads/sku2023-10-Tu_11-35 - sku2023-10-Tu_11-35_cut.csv
+      type: file
+      id: pair_abdea3ab2f8d4869872083a8d4fc9e8c
+    - name: createdBy
+      value: teddy.saputra@joybox.co.id
+      type: text
+      id: pair_99e38723f67b4e19a069ae3ec10092c7
+    - name: mode
+      value: update
+      type: text
+      id: pair_9d7b5a93b4554ba39496ee22d96f05eb
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1696571091610
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

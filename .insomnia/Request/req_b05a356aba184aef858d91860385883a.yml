@@ -1,0 +1,35 @@
+_id: req_b05a356aba184aef858d91860385883a
+type: Request
+parentId: fld_36dc51d2046640c4a8fb920b0f41df13
+modified: 1697195503514
+created: 1694059281025
+url: "{{ _['grpc-gateway-cops'] }}/api/sku?skuIds=1&skuIds=2&skuIds=3&skuIds=4"
+name: GetList
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_a7b71a2c918f49459ccf703fcb6b5380
+    name: skuIds
+    value: "1"
+    description: ""
+    type: text
+    multiline: false
+    disabled: false
+  - id: pair_756779e4838744d5bd7248ebcc7825f3
+    name: skuNumbers
+    value: "10110101"
+    description: ""
+    disabled: true
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1694059699251
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

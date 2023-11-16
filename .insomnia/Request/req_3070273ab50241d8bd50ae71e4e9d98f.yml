@@ -1,0 +1,37 @@
+_id: req_3070273ab50241d8bd50ae71e4e9d98f
+type: Request
+parentId: fld_a56c9665b41b4e6fbba9153ce5cbcf1e
+modified: 1696927795893
+created: 1694575816047
+url: "{{ _['grpc-gateway-cops'] }}/api/sku/upload"
+name: Bulk Upload CSV
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: file
+      name: file
+      disabled: false
+      fileName: /home/ervan/Downloads/sku2023-10-Tu_11-35 - sku2023-10-Tu_11-35_cut.csv
+      id: pair_242b5648ac894a26a8e08ad1531a3ede
+    - type: text
+      name: createdBy
+      disabled: false
+      value: teddy.saputra@joybox.co.id
+      id: pair_577c7be30ab94c879964aa4fcd36ad88
+    - id: pair_84453905a8194f9f8ce628de855bb5c1
+      name: mode
+      value: update
+      description: ""
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694575816047
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

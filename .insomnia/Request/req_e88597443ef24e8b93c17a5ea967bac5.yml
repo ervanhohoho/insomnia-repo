@@ -1,0 +1,27 @@
+_id: req_e88597443ef24e8b93c17a5ea967bac5
+type: Request
+parentId: fld_be89aed620ef45fdb8dc9781802bc90a
+modified: 1696220208671
+created: 1696220208671
+url: "{{domain}}/v1/logout"
+name: Logout
+description: ""
+method: DELETE
+body:
+  params: []
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208671
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

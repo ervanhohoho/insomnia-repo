@@ -1,0 +1,21 @@
+_id: req_74af613eed78468589174f5d8aba5807
+type: Request
+parentId: fld_a56c9665b41b4e6fbba9153ce5cbcf1e
+modified: 1694575816044
+created: 1694575816044
+url: ""
+name: I am teapot
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694575816044
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

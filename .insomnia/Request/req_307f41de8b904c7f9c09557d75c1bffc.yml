@@ -1,0 +1,37 @@
+_id: req_307f41de8b904c7f9c09557d75c1bffc
+type: Request
+parentId: fld_4edbde9662864837b8f0ca7ff2d9f4ad
+modified: 1694575816034
+created: 1694575816034
+url: "{{api}}/api/v1/products/bulk-category-settings"
+name: Bulk Upsert Category Settings
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"categoryId\":  27,\r
+
+    \        \"slug\": \"string\",\r
+
+    \        \"rank\": 27,\r
+
+    \        \"comingSoon\": true\r
+
+    \    }\r
+
+    ]"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694575816034
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

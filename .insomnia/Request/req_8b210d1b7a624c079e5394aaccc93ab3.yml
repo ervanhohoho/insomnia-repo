@@ -1,0 +1,39 @@
+_id: req_8b210d1b7a624c079e5394aaccc93ab3
+type: Request
+parentId: fld_9182ce4edc1449358ec292fe2816a5d5
+modified: 1696220208696
+created: 1696220208696
+url: "{{domain}}/v1/tenants/import"
+name: Import
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: file
+      disabled: false
+      fileName: /C:/Users/shiro/Downloads/TowsProduct.xlsx
+    - type: text
+      name: type
+      disabled: false
+      value: towsProduct
+  mimeType: multipart/form-data
+parameters:
+  - name: orderBy
+    value: category
+    disabled: true
+  - name: sortBy
+    value: asc
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208696
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

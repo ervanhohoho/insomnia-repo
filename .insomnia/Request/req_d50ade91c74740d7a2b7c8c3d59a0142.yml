@@ -1,24 +1,28 @@
-_id: req_d946d816a64c4756a64dcbce794550c7
+_id: req_d50ade91c74740d7a2b7c8c3d59a0142
 type: Request
 parentId: fld_531d54f4af1a4994ae0b5f61c61c89a7
-modified: 1697194333165
-created: 1693906084589
-url: "{{ _['opor-api'] }}/api/v1/warehouse/sales/order"
-name: Sales Order
+modified: 1699352182550
+created: 1699338022366
+url: "{{ _['opor-api'] }}/api/v1/warehouse/ff/update"
+name: New Request
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: |
     {
-        "orderId": "2023913137770274"
+      "orderNo": "2023107259899626",
+      "ffId": "c90da7ca-4103-4e4b-be93-16ef653d122d",
+      "status": "process"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
 authentication: {}
-metaSortKey: -1693906084589
+metaSortKey: -1699338022366
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

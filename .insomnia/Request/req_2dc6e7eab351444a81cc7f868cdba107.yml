@@ -1,0 +1,45 @@
+_id: req_2dc6e7eab351444a81cc7f868cdba107
+type: Request
+parentId: fld_be89aed620ef45fdb8dc9781802bc90a
+modified: 1696220208670
+created: 1696220208670
+url: "{{domain}}/v1/register"
+name: Register
+description: ""
+method: POST
+body:
+  params:
+    - value: your@emailcom
+      name: email
+      disabled: false
+    - value: password
+      name: password
+      disabled: false
+    - value: Jenny
+      name: firstName
+      disabled: false
+    - value: Doe
+      name: lastName
+      disabled: false
+    - value: "09822311"
+      name: phone
+      disabled: false
+    - value: "09.0742"
+      name: npwp
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1696220208670
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

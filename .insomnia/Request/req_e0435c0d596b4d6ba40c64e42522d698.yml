@@ -1,0 +1,65 @@
+_id: req_e0435c0d596b4d6ba40c64e42522d698
+type: Request
+parentId: fld_93fe0168ba334be3826e207c256f6f69
+modified: 1696220208694
+created: 1696220208694
+url: "{{domain}}/v1/inventories"
+name: Get All Inventories
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: status[0]
+    value: stored
+    disabled: true
+  - name: status[1]
+    value: disposal process
+    disabled: true
+  - name: warehouse_id
+    value: 9c38be98-0446-4616-8262-f9e9ebd39337
+    disabled: true
+  - name: orderBy
+    value: iku_id
+    disabled: true
+  - name: start_date
+    value: ""
+    disabled: true
+  - name: end_date
+    value: ""
+    disabled: true
+  - name: sku_number
+    value: cat-001
+    disabled: true
+  - name: iku_id
+    value: SBY20200930-1347-00001
+    disabled: true
+  - name: product_name
+    value: paus
+    disabled: true
+  - name: storage_id
+    value: Beku
+    disabled: true
+  - name: locker_size_name_id
+    value: Thick - Small
+    disabled: true
+  - name: locker_number
+    value: C13
+    disabled: true
+  - name: expired_date
+    value: 2020-09-03
+    disabled: true
+  - name: received_date
+    value: 2020-09-01
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208694
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

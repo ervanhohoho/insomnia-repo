@@ -1,0 +1,49 @@
+_id: req_7a8539b5edfb4cd99b725c9eb3125980
+type: Request
+parentId: fld_a56c9665b41b4e6fbba9153ce5cbcf1e
+modified: 1694593639941
+created: 1694575816044
+url: "{{ _['grpc-gateway-cops'] }}/api/sku"
+name: Get SKU Detail
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: subcategoryIds
+    value: "38"
+    disabled: true
+  - name: activeOnly
+    value: "true"
+    disabled: true
+  - name: page
+    value: "1"
+    disabled: false
+  - name: pageItemCount
+    value: "2"
+    disabled: false
+  - name: skuIds
+    value: "8635"
+    disabled: false
+  - name: skuNumbers
+    value: 1,2
+    disabled: true
+  - name: dearSkuNumbers
+    value: 1,2
+    disabled: true
+  - name: categoryIds
+    value: 1,2
+    disabled: true
+  - id: pair_0fc42a775f494a4284008b068ba71672
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1694575816044
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

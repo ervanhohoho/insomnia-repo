@@ -1,0 +1,71 @@
+_id: req_a094f196b71d400187381ae53ced8c8f
+type: Request
+parentId: fld_9ec1a7c073d44ac4ab2f71e336d2b23b
+modified: 1696220208706
+created: 1696220208706
+url: "{{domain}}/v1/bundling"
+name: Add Bundling
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: skuNumber
+      disabled: false
+      value: Bundling001
+    - type: text
+      name: name
+      disabled: false
+      value: Bundling Percobaan
+    - type: text
+      name: price
+      disabled: false
+      value: "300000"
+    - type: text
+      name: priceReseller
+      disabled: false
+      value: "0"
+    - type: text
+      name: isResellable
+      disabled: false
+      value: "0"
+    - type: text
+      name: description
+      disabled: false
+      value: 2 Ice Cream Unicorn Free 1 Banoffe Pie
+    - type: file
+      name: imageSelling
+      disabled: false
+      fileName: /G:/Wallpaper/29155_kamen_rider.jpg
+    - type: text
+      name: products[0][id]
+      disabled: false
+      value: 18e466b5-057e-42d2-84a9-f92edfa0f267
+    - type: text
+      name: products[0][qty]
+      disabled: false
+      value: "2"
+    - type: text
+      name: products[1][id]
+      disabled: false
+      value: b8c4bbda-123e-4ba5-937f-298396de2bc6
+    - type: text
+      name: products[1][qty]
+      disabled: false
+      value: "1"
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208706
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

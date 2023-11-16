@@ -1,0 +1,43 @@
+_id: req_ff6ef22941b642dca114e6c857f7d65b
+type: Request
+parentId: fld_4edbde9662864837b8f0ca7ff2d9f4ad
+modified: 1694575816030
+created: 1694575816030
+url: "{{api}}/api/v1/products/settings"
+name: POST New Product Setting
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \  \"id\": 1, \r
+
+    \  \"sku\": \"10010002\",\r
+
+    \  \"rank\": 1,\r
+
+    \  \"ribbonSetting\": {\r
+
+    \    \"lable\": \"Sebuah Label Ribbon\",\r
+
+    \    \"colorName\": \"PURPLE\",\r
+
+    \    \"textColor\": \"#FFFFFF\",\r
+
+    \    \"backgroundColor\": \"#8417DA\"\r
+
+    \  }\r
+
+    }"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694575816030
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

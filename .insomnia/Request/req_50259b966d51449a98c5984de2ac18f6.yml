@@ -1,0 +1,30 @@
+_id: req_50259b966d51449a98c5984de2ac18f6
+type: Request
+parentId: fld_86c597cbf69340298174a9c5d8ad323f
+modified: 1699591753765
+created: 1696220208680
+url: "{{ _['fresh-factory'].url }}/v1/reservations?poNumber=PO-00009"
+name: Find
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: warehouseId
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _['fresh-factory'].token }}"
+metaSortKey: -1696220208680
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

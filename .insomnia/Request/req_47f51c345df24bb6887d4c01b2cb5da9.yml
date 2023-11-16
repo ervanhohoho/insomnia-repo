@@ -1,0 +1,31 @@
+_id: req_47f51c345df24bb6887d4c01b2cb5da9
+type: Request
+parentId: fld_88b90a7a435345f5aeeb5235179b21bf
+modified: 1696220208709
+created: 1696220208709
+url: "{{domain}}/v1/towswarehouses"
+name: Get Tows Warehouse
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: towsId
+    value: 849c1698-e3ac-46db-aaf7-23cbef1a94ee
+    disabled: true
+  - name: warehouseId
+    value: 57bac3e2-92e6-4289-aac5-b8a78acd588f
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208709
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

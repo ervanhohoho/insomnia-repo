@@ -1,24 +1,27 @@
-_id: req_d946d816a64c4756a64dcbce794550c7
+_id: req_3946f632234d49e4978ffbc118ad4b3d
 type: Request
-parentId: fld_531d54f4af1a4994ae0b5f61c61c89a7
-modified: 1697194333165
-created: 1693906084589
-url: "{{ _['opor-api'] }}/api/v1/warehouse/sales/order"
-name: Sales Order
+parentId: fld_1dd4ce6cea3f4a70a639ef7fba40626c
+modified: 1694599830631
+created: 1694598801279
+url: "{{ _['grpc-gateway']
+  }}/v1/demand-platform/api/v1/products/bulk-get-subcategory"
+name: Bulk Get Subcat
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
-    {
-        "orderId": "2023913137770274"
-    }
+    [
+        1,15,16,17
+    ]
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
 authentication: {}
-metaSortKey: -1693906084589
+metaSortKey: -1694598801279
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

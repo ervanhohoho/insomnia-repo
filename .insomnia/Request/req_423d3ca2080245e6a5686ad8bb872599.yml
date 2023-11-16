@@ -1,0 +1,43 @@
+_id: req_423d3ca2080245e6a5686ad8bb872599
+type: Request
+parentId: fld_4edbde9662864837b8f0ca7ff2d9f4ad
+modified: 1694575816031
+created: 1694575816031
+url: "{{api}}/api/v1/products/settings"
+name: PUT Platform Ribbon Setting
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: "{\r
+
+    \  \"id\": \"1\", \r
+
+    \  \"sku\": \"10010002\",\r
+
+    \  \"rank\": 1,\r
+
+    \  \"ribbonSetting\": {\r
+
+    \    \"lable\": \"Sebuah Label Ribbon\",\r
+
+    \    \"colorName\": \"PURPLE\",\r
+
+    \    \"textColor\": \"#FFFFFF\",\r
+
+    \    \"backgroundColor\": \"#8417DA\"\r
+
+    \  }\r
+
+    }"
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694575816031
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,27 +1,29 @@
-_id: req_d778500257a74853be6071c0f805fcba
+_id: req_3fc83e7e3dec4f62a297df1e91d9aa1f
 type: Request
-parentId: fld_0492a4812d664a9ca94521d6646565eb
-modified: 1699332757696
-created: 1693906084591
-url: "{{opor-api}}/api/v1/order/status"
-name: Update Status
+parentId: fld_36dc51d2046640c4a8fb920b0f41df13
+modified: 1694059270652
+created: 1693988700079
+url: "{{ _['grpc-gateway'] }}/v1/cops/download/bulk"
+name: Download File
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-        "updatedOrderStatusList": [{
-            "orderId": "2022917697770877",
-            "status": "Picked"
-        }]
+    	"skuIds": [
+    		2281,
+    		2379
+    	]
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
 authentication: {}
-metaSortKey: -1693906084591
+metaSortKey: -1694059270606
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

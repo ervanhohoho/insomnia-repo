@@ -1,0 +1,31 @@
+_id: req_49c876a5cc194546a62e05cd66eb49c1
+type: Request
+parentId: fld_0dc5ecddf06b4798983ed66f1881f6fc
+modified: 1696220208690
+created: 1696220208690
+url: "{{domain}}/v1/orders/tows/INV2021030300343"
+name: Add Fulfillment
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+  - name: Accept-Language
+    value: id
+    disabled: true
+  - name: Accept
+    value: application/json
+    disabled: true
+authentication: {}
+metaSortKey: -1696220208690
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

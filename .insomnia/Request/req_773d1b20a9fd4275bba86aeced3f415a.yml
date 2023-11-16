@@ -1,0 +1,33 @@
+_id: req_773d1b20a9fd4275bba86aeced3f415a
+type: Request
+parentId: fld_86c597cbf69340298174a9c5d8ad323f
+modified: 1696564241366
+created: 1696220208681
+url: "{{ _['fresh-factory'].url }}/v1/reservation/available"
+name: Get Available Times
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"warehouseId": "{{ _['fresh-factory'].warehouseId }}",
+    	isShuttle: 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Accept
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _['fresh-factory'].token }}"
+metaSortKey: -1696220208681
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

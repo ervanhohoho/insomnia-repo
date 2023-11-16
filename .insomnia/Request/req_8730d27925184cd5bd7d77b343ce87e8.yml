@@ -1,0 +1,37 @@
+_id: req_8730d27925184cd5bd7d77b343ce87e8
+type: Request
+parentId: fld_86c597cbf69340298174a9c5d8ad323f
+modified: 1696220208680
+created: 1696220208680
+url: "{{domain}}/v1/reservations"
+name: Get All
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: warehouseId
+    value: 51321666-7bd5-459d-aa36-428d0987a0fb
+    disabled: true
+  - name: searchBy
+    value: status
+    disabled: true
+  - name: keyword
+    value: finish
+    disabled: true
+  - name: page
+    value: "2"
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208680
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

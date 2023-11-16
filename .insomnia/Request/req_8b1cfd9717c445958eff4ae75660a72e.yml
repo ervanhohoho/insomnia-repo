@@ -1,0 +1,23 @@
+_id: req_8b1cfd9717c445958eff4ae75660a72e
+type: Request
+parentId: fld_aa65968db48a45b5aa30db029f480c44
+modified: 1699953047989
+created: 1699952830184
+url: "{{ _['opor-api'] }}/api/v1/purchase_order/check-receive-status"
+name: Poll WMS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1699952830184
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

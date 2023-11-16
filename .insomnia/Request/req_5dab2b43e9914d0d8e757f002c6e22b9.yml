@@ -1,0 +1,28 @@
+_id: req_5dab2b43e9914d0d8e757f002c6e22b9
+type: Request
+parentId: fld_9ec1a7c073d44ac4ab2f71e336d2b23b
+modified: 1696220208707
+created: 1696220208707
+url: "{{domain}}/v1/bundling/471bb30a-2fb5-429f-96fe-e769341743ce"
+name: Find Bundling
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: include
+    value: products
+    disabled: false
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208707
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

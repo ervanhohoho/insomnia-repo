@@ -1,0 +1,25 @@
+_id: req_73fa10efd7b848d4a5b6da8edd3eac63
+type: Request
+parentId: fld_6df7d0a84e5e453db17c9cb057ecf4cf
+modified: 1696220208710
+created: 1696220208710
+url: "{{domain}}/v1/towsproducts/fca7c416-ef26-4350-a06b-a4e20e23626e"
+name: Find Product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

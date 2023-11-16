@@ -1,0 +1,33 @@
+_id: req_9fa51283d01048cdb407c84f69e19800
+type: Request
+parentId: fld_0dc5ecddf06b4798983ed66f1881f6fc
+modified: 1696326054267
+created: 1696220208688
+url: "{{ _['fresh-factory'].url }}/v1/orders/cancel"
+name: Cancel
+description: ""
+method: PATCH
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - value: testpayloadsku03
+      name: orderId
+      disabled: false
+      id: pair_63fd45e7396a464f819c2be3853dd14c
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _['fresh-factory'].token }}"
+metaSortKey: -1696220208688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

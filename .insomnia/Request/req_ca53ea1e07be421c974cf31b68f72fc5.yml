@@ -1,0 +1,21 @@
+_id: req_ca53ea1e07be421c974cf31b68f72fc5
+type: Request
+parentId: fld_4edbde9662864837b8f0ca7ff2d9f4ad
+modified: 1694575816030
+created: 1694575816030
+url: "{{api}}/api/v1/products/:sku/settings"
+name: GET Platform Ribbon Setting
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1694575816030
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

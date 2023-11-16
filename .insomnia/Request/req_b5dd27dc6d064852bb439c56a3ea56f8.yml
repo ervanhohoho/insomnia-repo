@@ -1,0 +1,37 @@
+_id: req_b5dd27dc6d064852bb439c56a3ea56f8
+type: Request
+parentId: fld_9ec1a7c073d44ac4ab2f71e336d2b23b
+modified: 1696220208707
+created: 1696220208707
+url: "{{domain}}/v1/bundling"
+name: Get Bundling
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: tenantId
+    value: 849c1698-e3ac-46db-aaf7-23cbef1a94ee
+    disabled: true
+  - name: warehouseId
+    value: 57bac3e2-92e6-4289-aac5-b8a78acd588f
+    disabled: true
+  - name: include
+    value: products
+    disabled: true
+  - name: limit
+    value: "0"
+    disabled: false
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208707
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

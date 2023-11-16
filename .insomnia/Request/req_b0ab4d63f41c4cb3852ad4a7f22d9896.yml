@@ -1,0 +1,33 @@
+_id: req_b0ab4d63f41c4cb3852ad4a7f22d9896
+type: Request
+parentId: fld_93fe0168ba334be3826e207c256f6f69
+modified: 1696220208696
+created: 1696220208696
+url: "{{domain}}/v1/ikuses/expired/JKS20210217-1318-00009"
+name: Update Date Expired
+description: ""
+method: PUT
+body:
+  params:
+    - value: ""
+      name: dateExpired
+      disabled: false
+    - value: Percobaan Lagi
+      name: batchNumber
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208696
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

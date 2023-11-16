@@ -1,24 +1,21 @@
-_id: req_d946d816a64c4756a64dcbce794550c7
+_id: req_17389363d2704cd0a38d059a7ad2c480
 type: Request
-parentId: fld_531d54f4af1a4994ae0b5f61c61c89a7
-modified: 1697194333165
-created: 1693906084589
-url: "{{ _['opor-api'] }}/api/v1/warehouse/sales/order"
-name: Sales Order
+parentId: fld_4edbde9662864837b8f0ca7ff2d9f4ad
+modified: 1694598863920
+created: 1694575816036
+url: "{{ _['cops-api'] }}/api/v1/products/bulk-get-subcategory"
+name: Bulk GET Subcategory Settings
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-        "orderId": "2023913137770274"
-    }
+  text: "[\r\n    1,15,16,17\r\n]"
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1693906084589
+metaSortKey: -1694575816036
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

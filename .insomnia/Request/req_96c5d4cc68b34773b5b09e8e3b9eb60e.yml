@@ -1,0 +1,30 @@
+_id: req_96c5d4cc68b34773b5b09e8e3b9eb60e
+type: Request
+parentId: fld_4edbde9662864837b8f0ca7ff2d9f4ad
+modified: 1694575816025
+created: 1694575816025
+url: "{{api}}/api/v1/products/settings"
+name: GET Bulk Platform Product Setting
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: productIds
+    value: "1"
+    disabled: false
+  - name: productIds
+    value: "2"
+    disabled: false
+  - name: productIds
+    value: "3"
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1694575816025
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

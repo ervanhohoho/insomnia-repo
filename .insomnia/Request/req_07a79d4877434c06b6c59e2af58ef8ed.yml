@@ -1,0 +1,28 @@
+_id: req_07a79d4877434c06b6c59e2af58ef8ed
+type: Request
+parentId: fld_896823fedc2841668ba7327603b49742
+modified: 1696220208678
+created: 1696220208678
+url: "{{domainDev}}/v1/products/2e3baf2a-94be-47bb-8391-e2abd75cbc38/stock"
+name: Get product stock
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: orderType
+    value: sales
+    disabled: false
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208678
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

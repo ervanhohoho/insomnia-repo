@@ -1,0 +1,69 @@
+_id: req_153143dde2634056a931705948ad0490
+type: Request
+parentId: fld_a869e905f5cb4ccfb041893287d53c3e
+modified: 1696220208704
+created: 1696220208704
+url: "{{domain}}/v1/tows"
+name: Add Tows
+description: ""
+method: POST
+body:
+  params:
+    - value: 849c1698-e3ac-46db-aaf7-23cbef1a94ee
+      name: tenantId
+      disabled: false
+    - value: RZKJB3
+      name: towsCode
+      disabled: false
+    - value: Rezeki Jakarta Selatan 3
+      name: towsName
+      disabled: false
+    - value: Jl. Raya Kebayoran Lama 10b
+      name: address
+      disabled: false
+    - value: Grogol Utara
+      name: subdistrict
+      disabled: false
+    - value: Kebayoran Lama
+      name: district
+      disabled: false
+    - value: KOTA ADM. JAKARTA SELATAN
+      name: city
+      disabled: false
+    - value: DKI JAKARTA
+      name: state
+      disabled: false
+    - value: "12210"
+      name: postalCode
+      disabled: false
+    - value: "-6.22151843"
+      name: latitude
+      disabled: false
+    - value: "106.78265999"
+      name: longitude
+      disabled: false
+    - value: Eric
+      name: contactName
+      disabled: false
+    - value: "089670175967"
+      name: contactPhone
+      disabled: false
+    - value: eric@abcworks.id
+      name: contactEmail
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1696220208704
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

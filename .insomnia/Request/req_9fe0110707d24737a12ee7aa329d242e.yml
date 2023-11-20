@@ -1,7 +1,7 @@
 _id: req_9fe0110707d24737a12ee7aa329d242e
 type: Request
 parentId: fld_0492a4812d664a9ca94521d6646565eb
-modified: 1699418429129
+modified: 1700020570940
 created: 1693906084592
 url: "{{ _['opor-api'] }}/api/v1/order/batch"
 name: Batch Orders
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-        "orderId": "2023108987899407",
+        "orderId": "20231014237341272",
         "eventType": "",
         "paymentRequestId": "",
         "paymentDate": "",

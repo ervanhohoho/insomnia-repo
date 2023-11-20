@@ -1,9 +1,9 @@
 _id: req_e0730a09eabb48dea83ef3f136019bc7
 type: Request
 parentId: fld_531d54f4af1a4994ae0b5f61c61c89a7
-modified: 1693906084589
+modified: 1699509907633
 created: 1693906084589
-url: "{{opor-api}}/api/v1/warehouse/check-discrepancy"
+url: "{{ _['opor-api'] }}/api/v1/warehouse/check-discrepancy"
 name: Check Discrepancies
 description: ""
 method: POST

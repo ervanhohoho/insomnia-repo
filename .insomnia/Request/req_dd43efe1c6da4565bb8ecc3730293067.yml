@@ -1,9 +1,9 @@
 _id: req_dd43efe1c6da4565bb8ecc3730293067
 type: Request
 parentId: fld_fa04a6808a0b49fbb7198c8cb6ae3ace
-modified: 1697020157883
+modified: 1699439044618
 created: 1695616575473
-url: "{{ _['fresh-factory'].url }}/v1/orders"
+url: "{{ _['fresh-factory'].url }}/v1/fulfillments"
 name: Create
 description: ""
 method: POST
@@ -12,9 +12,9 @@ body:
   text: |-
     {
     	"warehouseId": "57bac3e2-92e6-4289-aac5-b8a78acd588f",
-    	"platform": "Marketplace",
-    	"platformInvoiceId": "2023911117770379",
-    	"bookingId": "2023911117770379",
+    	"platform": "Cosmart",
+    	"platformInvoiceId": "APITEST3",
+    	"bookingId": "APITEST3",
     	"customerName": "Ervan",
     	"customerPhoneNumber": "081905517770",
     	"customerAddress": "Alamanda",
@@ -38,7 +38,7 @@ body:
     	"recipientLongitude": "",
     	"pickedBy": "freshfactory",
     	"packaging": "1",
-    	"logisticCompany": "KURIR REKOMENDASI",
+    	"logisticCompany": "Lainnya",
     	"logisticService": "Instant",
     	"estimatedWeight": "1000",
     	"estimatedDeliveryFee": "1000",

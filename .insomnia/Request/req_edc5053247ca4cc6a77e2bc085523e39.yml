@@ -1,0 +1,23 @@
+_id: req_edc5053247ca4cc6a77e2bc085523e39
+type: Request
+parentId: fld_aa65968db48a45b5aa30db029f480c44
+modified: 1700019253357
+created: 1700019235236
+url: "{{ _['opor-api'] }}/api/v1/purchase_order/check-receive-status"
+name: Poll Receive Status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1700019235236
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
